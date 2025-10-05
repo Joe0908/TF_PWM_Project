@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Load the PWM chart (tab-separated)
+tf_pwm_df = pd.read_csv("TF_PWM_chart_1.tsv", sep="\t")
+
+# Load the TF accession to family mapping (comma-separated)
+tf_accession_family_df = pd.read_csv("TF_accession_family.csv", header=None, names=["TF_name", "TF_family_raw"])
+
+# Rename column for clarity
+tf_accession_family_df.rename(columns={"TF_family_raw": "TF_family"}, inplace=True)
+
+# Merge the dataframes on TF_name
+merged_df = tf_pwm_df.drop(columns=["TF_family"]).merge(tf_accession_family_df, on="TF_name", how="left")
+
+# Reorder columns to put TF_family right after TF_name
+cols = merged_df.columns.tolist()
+cols.insert(1, cols.pop(cols.index("TF_family")))
+merged_df = merged_df[cols]
+
+# Save the result to a new file
+merged_df.to_csv("TF_PWM_chart_2.tsv", sep="\t", index=False)
