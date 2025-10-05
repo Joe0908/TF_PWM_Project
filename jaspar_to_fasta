@@ -1,0 +1,12 @@
+import json
+
+with open("jaspar_vertebrates.uniprot.json") as f:
+    data = json.load(f)
+
+with open("JASPAR.fasta", "w") as f_out:
+    for uniprot_id, info in data.items():
+        pwm_id = info[0][0] if isinstance(info[0], list) else info[0]
+        sequence = info[1].replace("\n", "").strip()
+        if sequence:  # make sure sequence isn't empty
+            header = f">{uniprot_id}|{pwm_id}"
+            f_out.write(f"{header}\n{sequence}\n")
