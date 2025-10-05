@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+import pandas as pd
+import re
+from pathlib import Path
+
+BASE = Path("/home/yuqi/joe_program")
+TSV_PATH = BASE / "TF_PWM_chart_4.tsv"
+MODCRE_BAD_PATH = BASE / "wrong_model_modcre.txt"
+AF3_BAD_PATH = BASE / "wrong_model_af3.txt"
+OUT_PATH = BASE / "TF_PWM_chart_5.tsv"   # <- change to overwrite if you want
+
+def load_bad_list(path, suffix=".meme"):
+    bad = []
+    with open(path, "r") as f:
+        for line in f:
+            s = line.strip()
+            if not s:
+                continue
+            # support space/tab-separated items per line
+            for tok in re.split(r"\s+", s):
+                if tok:
+                    bad.append(tok if tok.endswith(suffix) else tok + suffix)
+    return set(bad)
+
+def remove_bad_tokens(cell, badset):
+    if pd.isna(cell):
+        return cell
+    # values are semicolon-separated; trim spaces; drop empties
+    parts = [p.strip() for p in str(cell).split(";") if p.strip()]
+    kept = [p for p in parts if p not in badset]
+    return ";".join(kept) if kept else ""
+
+def main():
+    # Read table as strings to preserve exact tokens
+    df = pd.read_csv(TSV_PATH, sep="\t", dtype=str)
+
+    # Load “to-exclude” lists and append ".meme"
+    bad_modcre = load_bad_list(MODCRE_BAD_PATH, suffix=".meme")
+    bad_af3 = load_bad_list(AF3_BAD_PATH, suffix=".meme")
+
+    # Ensure columns exist
+    for col in ["ModCRE", "AlphaFold"]:
+        if col not in df.columns:
+            df[col] = pd.NA
+
+    # Clean cells (remove ONLY matched tokens, not rows)
+    df["ModCRE"] = df["ModCRE"].apply(lambda x: remove_bad_tokens(x, bad_modcre))
+    df["AlphaFold"] = df["AlphaFold"].apply(lambda x: remove_bad_tokens(x, bad_af3))
+
+    # Save
+    df.to_csv(OUT_PATH, sep="\t", index=False)
+    print(f"Done. Wrote: {OUT_PATH}")
+
+if __name__ == "__main__":
+    main()
