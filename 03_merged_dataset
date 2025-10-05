@@ -1,0 +1,39 @@
+def read_fasta(file_path):
+    sequences = []
+    with open(file_path, "r") as f:
+        header = None
+        seq = []
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            if line.startswith(">"):
+                if header:
+                    sequences.append((header, "".join(seq)))
+                header = line
+                seq = []
+            else:
+                seq.append(line)
+        if header:
+            sequences.append((header, "".join(seq)))
+    return sequences
+
+# Step 1: Read and collect sequences from both databases
+seen_seqs = {}
+output = []
+
+for source in ["/home/yuqi/joe_program/JASPAR.fasta", "/home/yuqi/joe_program/cisBP_merged_pwm.fasta"]:
+    for header, seq in read_fasta(source):
+        if seq not in seen_seqs:
+            seen_seqs[seq] = header
+            output.append((header, seq))  # preserve header from first seen source
+
+# Step 2: Write deduplicated sequences to new FASTA
+with open("merged_pwm_unique.fasta", "w") as out:
+    for header, seq in output:
+        out.write(f"{header}\n")
+        # wrap lines at 60 characters (FASTA standard)
+        for i in range(0, len(seq), 60):
+            out.write(f"{seq[i:i+60]}\n")
+
+print(f"✅ Wrote {len(output)} unique TF sequences to merged_pwm_unique.fasta")
