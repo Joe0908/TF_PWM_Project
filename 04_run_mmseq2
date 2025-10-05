@@ -1,0 +1,25 @@
+#!/bin/bash
+module load MMseqs2
+
+input="Homo_TF.fasta"
+output="TF_sequences"
+database="merged_pwm_unique.fasta"
+output_db="TF_database"
+dummy="tmp_mmseqs"
+
+mkdir -p $dummy
+
+echo "Creating query database..."
+mmseqs createdb "$input" "${output}.db"
+
+echo "Creating target PWM database..."
+mmseqs createdb "$database" "${output_db}.db"
+
+echo "Running MMseqs2 search..."
+mmseqs search "${output}.db" "${output_db}.db" "${output}.ali" "$dummy" \
+  --threads 8 -s 7.5 --max-seq-id 1.0 --num-iterations 4
+
+echo "Converting alignment results..."
+mmseqs convertalis "${output}.db" "${output_db}.db" "${output}.ali" "${output}.comparison"
+
+echo " MMseqs2 alignment complete. Output: ${output}.comparison"
