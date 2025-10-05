@@ -1,0 +1,40 @@
+import re
+
+# === Input file paths ===
+motif_file = "CisBP_2.00.all.motifs.sql"
+protein_file = "CisBP_2.00.all.proteins.sql"
+output_fasta = "cisBP_merged_pwm.fasta"
+
+# === Step 1: Load motifs with IUPAC codes ===
+motif_dict = {}
+with open(motif_file, "r") as f:
+    motif_text = f.read()
+    entries = re.findall(
+        r"\('([^']+)',\s*'([^']+)',\s*[^,]+,\s*[^,]+,\s*[^,]+,\s*[^,]+,\s*'([^']+)'", motif_text
+    )
+    for motif_id, tf_id, iupac in entries:
+        if iupac != "NULL":
+            motif_dict[tf_id] = (motif_id, iupac)
+
+# === Step 2: Load proteins with sequences ===
+protein_dict = {}
+with open(protein_file, "r") as f:
+    protein_text = f.read()
+    entries = re.findall(
+        r"\('([^']+)',\s*'([^']+)',\s*[^,]+,\s*[^,]+,\s*'([^']+)'\)", protein_text
+    )
+    for _, tf_id, seq in entries:
+        if seq != "NULL":
+            protein_dict[tf_id] = seq
+
+# === Step 3: Merge and write FASTA ===
+count = 0
+with open(output_fasta, "w") as out:
+    for tf_id in protein_dict:
+        if tf_id in motif_dict:
+            motif_id, iupac = motif_dict[tf_id]
+            seq = protein_dict[tf_id]
+            out.write(f">{tf_id}|{motif_id} IUPAC={iupac}\n{seq}\n")
+            count += 1
+
+print(f"✅ Wrote {count} merged TF sequences to {output_fasta}")
