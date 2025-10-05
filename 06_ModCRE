@@ -1,0 +1,52 @@
+import pandas as pd
+import re
+
+# File paths
+chart_path = "/home/yuqi/joe_program/TF_PWM_chart_2.tsv"
+pwm_log_path = "/home/yuqi/joe_program/pwm_execution.txt"
+output_path = "/home/yuqi/joe_program/TF_PWM_chart_2_with_ModCRE.tsv"
+
+# Load the chart
+chart_df = pd.read_csv(chart_path, sep="\t")
+
+# Load the PWM execution log
+with open(pwm_log_path, "r") as f:
+    lines = f.readlines()
+
+# Build a mapping from UniProt ID to list of PWM names
+pwm_map = {}
+for line in lines:
+    line = line.strip()
+    if not line or "FAIL" in line or not line.endswith("DONE"):
+        continue
+    pwm_name = line.split("\t")[0]
+    parts = pwm_name.split("_")
+    for part in parts:
+        if re.match(r"[A-NR-Z][0-9][A-Z0-9]{3}[0-9]", part):
+            tf_id = part
+            pwm_map.setdefault(tf_id, []).append(pwm_name)
+            break
+
+# Function to extract UniProt ID from TF_name
+def extract_uniprot_id(tf_name):
+    parts = tf_name.split("_")
+    for part in parts:
+        if re.match(r"[A-NR-Z][0-9][A-Z0-9]{3}[0-9]", part):
+            return part
+    return None
+
+# Ensure ModCRE column exists and is string-typed
+if "ModCRE" not in chart_df.columns:
+    chart_df["ModCRE"] = ""
+else:
+    chart_df["ModCRE"] = chart_df["ModCRE"].fillna("").astype(str)
+
+# Fill the ModCRE column with matched PWM names
+for idx, row in chart_df.iterrows():
+    tf_id = extract_uniprot_id(row["TF_name"])
+    modcre_list = pwm_map.get(tf_id, [])
+    chart_df.at[idx, "ModCRE"] = ";".join(modcre_list)
+
+# Save the updated chart
+chart_df.to_csv(output_path, sep="\t", index=False)
+print(f"ModCRE column filled and saved to: {output_path}")
