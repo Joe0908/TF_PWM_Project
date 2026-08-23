@@ -1,38 +1,84 @@
-Pipeline for TF PWM Annotation
+# Hierarchical human TF–PWM annotation
 
-Overview: This pipeline processes a FASTA file containing human transcription factor (TF) sequences and annotates them with Position Weight Matrix (PWM) information using similarity searches and external tools. The goal is to assign the most likely PWM to each input TF using multiple methods: sequence identity, homology, ModCRE, and AlphaFold.
+A curated annotation table linking human transcription factors (TFs) to position weight matrices (PWMs) or predicted models through a fixed evidence hierarchy:
 
-1.Input:
-Input file: A FASTA file of TF sequences.
+1. identical-sequence PWM;
+2. high-homology PWM transfer;
+3. moderate-homology PWM transfer;
+4. ModCRE model;
+5. AlphaFold-derived model.
 
-2.MMseqs2 Similarity Search
-MMseqs2 is used to compare the input sequences against a merged reference database of JASPAR and CisBP sequences.
-Script used: run_mmseqs.sh This will:
-Identify identical sequences → Column 2: Identical_PWM
-Identify sequences with >70% similarity → Column 3: Homologous_PWM
-Identify sequences with 50–70% similarity → Column 4: Relatively_Homologous_PWM
+The current release contains **5,417 unique TF accessions**. Of these, **5,288 (97.6%)** have one retained annotation and **129** remain unannotated.
 
-3. Chart Generation
-Script used: generate_tf_pwm_chart.py
+## Current release
 
-4. Add TF Family Information
-Using the file TF_accession_family.csv, which maps UniProt IDs to TF families, we fill in the first column: TF_family.
-Script used: update_chart_with_TF_family.py
-Output: TF_PWM_chart_2.tsv
+| Best annotation level | TFs |
+|---|---:|
+| Identical PWM | 2,160 |
+| Homologous PWM | 1,786 |
+| Relatively homologous PWM | 700 |
+| ModCRE | 400 |
+| AlphaFold | 242 |
+| Unannotated | 129 |
+| **Total** | **5,417** |
 
-5. Run ModCRE on Remaining Sequences
-For sequences without assigned PWM from identity/homology matches, we run the ModCRE model.
-The PWM name assigned by ModCRE is recorded in Column 5: ModCRE.
-Script used: modcre.py
-Output: TF_PWM_chart_3.tsv
+Download the main table: [`data/releases/TF_PWM_chart_final.tsv`](data/releases/TF_PWM_chart_final.tsv)
 
-6. Run AlphaFold on Remaining Sequences
-For sequences not resolved by ModCRE, AlphaFold is used. Predicted models are matched to PWMs.
-The PWM name is recorded in Column 6: AlphaFold.
-Script used: alphafold.py
-Output: TF_PWM_chart_4.tsv
+The 2025 pre-HOCOMOCO release (5,384 TFs) is retained as [`data/releases/TF_PWM_chart_pre_hocomoco.tsv`](data/releases/TF_PWM_chart_pre_hocomoco.tsv). HOCOMOCO v11 was incorporated in a subsequent 2026 update, adding 33 TFs and improving the evidence level of 29 existing TFs.
 
-7. Filter Invalid Results
-Two text files (wrong_model_modcre.txt and wrong_model_af3.txt) contain sequences deemed non-TF by ModCRE or AlphaFold. These sequences should be removed.
-Script used: final_table.py Final
-Output: TF_PWM_chart_final.tsv
+## Repository structure
+
+```text
+.
+├── data/
+│   ├── releases/           # versioned publication tables
+│   ├── interim/            # retained homology-stage table
+│   ├── reference/          # family mapping and HOCOMOCO annotation
+│   ├── model_predictions/  # ModCRE/AF3 logs and exclusion lists
+│   └── audit/              # HOCOMOCO update audit trail
+├── scripts/                # numbered processing and validation scripts
+├── docs/                   # data dictionary and reproducibility notes
+└── .github/workflows/      # automated release validation
+```
+
+## Quick validation
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/09_validate_release.py data/releases/TF_PWM_chart_final.tsv
+```
+
+To reproduce the verified HOCOMOCO update:
+
+```bash
+python scripts/08_integrate_hocomoco.py \
+  --input data/releases/TF_PWM_chart_pre_hocomoco.tsv \
+  --hocomoco data/reference/HOCOMOCOv11_core_annotation_HUMAN_mono.tsv \
+  --output reproduced_final.tsv \
+  --audit reproduced_audit.tsv
+
+cmp reproduced_final.tsv data/releases/TF_PWM_chart_final.tsv
+cmp reproduced_audit.tsv data/audit/HOCOMOCO_integration_audit.tsv
+```
+
+## Workflow
+
+The original 2025 workflow combined JASPAR and CisBP sequence–motif records, searched the human TF set using MMseqs2, added TF-family annotations, and then attached filtered ModCRE and AlphaFold-derived predictions. The 2026 update added HOCOMOCO v11 and enforced the hierarchy so that each TF retains only its highest-priority evidence column.
+
+The 70% and 50% sequence-identity cutoffs are operational thresholds used in this project, not universal biological boundaries. They separate high-confidence transfer (≥70%) from a lower-confidence 50–70% tier. The motivation for using structure-based ModCRE predictions under remote homology follows [Fornes et al. (2024)](https://doi.org/10.1093/nargab/lqae068).
+
+Full field definitions and limitations are documented in [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) and [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md).
+
+## Data and software sources
+
+- [JASPAR](https://jaspar.elixir.no/) (2024 release)
+- [Cis-BP](http://cisbp.ccbr.utoronto.ca/) (version 2.00)
+- [HOCOMOCO](https://hocomoco11.autosome.org/) (version 11, human core mononucleotide models)
+- [MMseqs2](https://github.com/soedinglab/MMseqs2)
+- [ModCRE](https://doi.org/10.1093/nargab/lqae068)
+
+Users should also cite the original databases and methods appropriate to their analysis.
+
+## Status
+
+The final release and HOCOMOCO integration are exactly reproducible from the files in this repository. The historical raw MMseqs2 alignment file was not archived; consequently, the homology-search stage cannot be reproduced byte-for-byte, although its 5,384-row intermediate output is retained and validated.

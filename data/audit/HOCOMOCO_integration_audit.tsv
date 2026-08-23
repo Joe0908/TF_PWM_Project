@@ -1,0 +1,402 @@
+TF_name	action	old_Identical_PWM	new_Identical_PWM	old_Homologous_PWM	old_Relatively_Homologous_PWM	old_ModCRE	old_AlphaFold	HOCOMOCO_TF_name	HOCOMOCO_family	HOCOMOCO_UniProt_ID
+A0PJY2	add_hocomoco_to_existing_identical_pwm	M08889_2.00	M08889_2.00;FEZF1_HUMAN.H11MO.0.C					FEZF1	More than 3 adjacent zinc finger factors{2.3.3}	FEZF1_HUMAN
+A2RRD8	add_hocomoco_to_existing_identical_pwm	M07667_2.00	M07667_2.00;ZN320_HUMAN.H11MO.0.C					ZNF320	More than 3 adjacent zinc finger factors{2.3.3}	ZN320_HUMAN
+O00321	add_hocomoco_to_existing_identical_pwm	M09048_2.00	M09048_2.00;ETV2_HUMAN.H11MO.0.B					ETV2	Ets-related factors{3.5.2}	ETV2_HUMAN
+O00327	upgrade_to_identical_pwm		BMAL1_HUMAN.H11MO.0.A	M04125_2.00 (99.8%);M09478_2.00 (98.4%);MA0603.1 (97.1%)	M03615_2.00 (54.8%)			ARNTL	PAS domain factors{1.2.5}	BMAL1_HUMAN
+O00470	add_hocomoco_to_existing_identical_pwm	MA0498.2	MA0498.2;MEIS1_HUMAN.H11MO.0.A					MEIS1	TALE-type homeo domain factors{3.1.4}	MEIS1_HUMAN
+O00482	add_hocomoco_to_existing_identical_pwm	M05590_2.00	M05590_2.00;NR5A2_HUMAN.H11MO.0.B					NR5A2	FTZ-F1-related receptors (NR5){2.1.5}	NR5A2_HUMAN
+O00716	add_hocomoco_to_existing_identical_pwm	MA0469.2	MA0469.2;E2F3_HUMAN.H11MO.0.A					E2F3	E2F-related factors{3.3.2}	E2F3_HUMAN
+O14503	add_hocomoco_to_existing_identical_pwm	MA0464.2	MA0464.2;BHE40_HUMAN.H11MO.0.A					BHLHE40	Hairy-related factors{1.2.4}	BHE40_HUMAN
+O14753	add_hocomoco_to_existing_identical_pwm	MA1544.1	MA1544.1;OVOL1_HUMAN.H11MO.0.C					OVOL1	More than 3 adjacent zinc finger factors{2.3.3}	OVOL1_HUMAN
+O14770	add_hocomoco_to_existing_identical_pwm	MA0774.1	MA0774.1;MEIS2_HUMAN.H11MO.0.B					MEIS2	TALE-type homeo domain factors{3.1.4}	MEIS2_HUMAN
+O14978	add_hocomoco_to_existing_identical_pwm	MA0528.1	MA0528.1;ZN263_HUMAN.H11MO.0.A					ZNF263	More than 3 adjacent zinc finger factors{2.3.3}	ZN263_HUMAN
+O15119	add_hocomoco_to_existing_identical_pwm	MA1566.1	MA1566.1;TBX3_HUMAN.H11MO.0.C					TBX3	TBX2-related factors{6.5.4}	TBX3_HUMAN
+O15178	add_hocomoco_to_existing_identical_pwm	MA0009.2	MA0009.2;BRAC_HUMAN.H11MO.0.A					T	Brachyury-related factors{6.5.1}	BRAC_HUMAN
+O15409	add_hocomoco_to_existing_identical_pwm	MA0593.1	MA0593.1;FOXP2_HUMAN.H11MO.0.C					FOXP2	Forkhead box (FOX) factors{3.3.1}	FOXP2_HUMAN
+O15522	add_hocomoco_to_existing_identical_pwm	MA0673.1	MA0673.1;NKX28_HUMAN.H11MO.0.C					NKX2-8	NK-related factors{3.1.2}	NKX28_HUMAN
+O15525	add_hocomoco_to_existing_identical_pwm	MA0659.1	MA0659.1;MAFG_HUMAN.H11MO.0.A					MAFG	Maf-related factors{1.1.3}	MAFG_HUMAN
+O43186	add_hocomoco_to_existing_identical_pwm	M00274_2.00	M00274_2.00;CRX_HUMAN.H11MO.0.B					CRX	Paired-related HD factors{3.1.3}	CRX_HUMAN
+O43296	add_hocomoco_to_existing_identical_pwm	M08860_2.00	M08860_2.00;ZN264_HUMAN.H11MO.0.C					ZNF264	More than 3 adjacent zinc finger factors{2.3.3}	ZN264_HUMAN
+O43474	add_hocomoco_to_existing_identical_pwm	MA0039.3	MA0039.3;KLF4_HUMAN.H11MO.0.A					KLF4	Three-zinc finger Krüppel-related factors{2.3.1}	KLF4_HUMAN
+O43524	add_hocomoco_to_existing_identical_pwm	MA0157.1	MA0157.1;FOXO3_HUMAN.H11MO.0.B					FOXO3	Forkhead box (FOX) factors{3.3.1}	FOXO3_HUMAN
+O43623	add_hocomoco_to_existing_identical_pwm	MA0745.1	MA0745.1;SNAI2_HUMAN.H11MO.0.A					SNAI2	More than 3 adjacent zinc finger factors{2.3.3}	SNAI2_HUMAN
+O43829	add_hocomoco_to_existing_identical_pwm	MA1650.1	MA1650.1;ZBT14_HUMAN.H11MO.0.C					ZBTB14	More than 3 adjacent zinc finger factors{2.3.3}	ZBT14_HUMAN
+O43918	upgrade_to_identical_pwm		AIRE_HUMAN.H11MO.0.C		M01680_2.00 (50.7%)			AIRE	AIRE{5.3.1}	AIRE_HUMAN
+O60393	upgrade_to_identical_pwm		NOBOX_HUMAN.H11MO.0.C		M02103_2.00 (52.9%);M02221_2.00 (50.9%);MA0125.1 (58.8%)	DIMER_sp_O60393_NOBOX_HUMAN:350:361_4qtr_B_1.meme;DIMER_sp_O60393_NOBOX_HUMAN:350:361_3hdd_A_1.meme;TFS_sp_O60393_NOBOX_HUMAN:350:363_3lnq_A_1.meme;DIMER_sp_O60393_NOBOX_HUMAN:350:361_1fjl_A_1.meme;DIMER_sp_O60393_NOBOX_HUMAN:350:361_1hdd_D_1.meme;DIMER_sp_O60393_NOBOX_HUMAN:347:363_5hod_D_1.meme;TFS_sp_O60393_NOBOX_HUMAN:350:368_1ahd_P_1.meme;TFS_sp_O60393_NOBOX_HUMAN:350:361_3a01_B_1.meme;TFS_sp_O60393_NOBOX_HUMAN:350:364_2lkx_A_1.meme;TFS_sp_O60393_NOBOX_HUMAN:350:366_2me6_A_1.meme		NOBOX	Paired-related HD factors{3.1.3}	NOBOX_HUMAN
+O60479	add_hocomoco_to_existing_identical_pwm	M01503_2.00	M01503_2.00;DLX3_HUMAN.H11MO.0.C					DLX3	NK-related factors{3.1.2}	DLX3_HUMAN
+O60481	add_hocomoco_to_existing_identical_pwm	MA0697.1	MA0697.1;ZIC3_HUMAN.H11MO.0.B					ZIC3	More than 3 adjacent zinc finger factors{2.3.3}	ZIC3_HUMAN
+O60675	add_hocomoco_to_existing_identical_pwm	MA0496.1	MA0496.1;MAFK_HUMAN.H11MO.0.A					MAFK	Maf-related factors{1.1.3}	MAFK_HUMAN
+O60765	add_hocomoco_to_existing_identical_pwm	M08914_2.00	M08914_2.00;Z354A_HUMAN.H11MO.0.C					ZNF354A	More than 3 adjacent zinc finger factors{2.3.3}	Z354A_HUMAN
+O75030	add_hocomoco_to_existing_identical_pwm	MA0620.2	MA0620.2;MITF_HUMAN.H11MO.0.A					MITF	bHLH-ZIP factors{1.2.6}	MITF_HUMAN
+O75444	add_hocomoco_to_existing_identical_pwm	MA0501.1	MA0501.1;MAF_HUMAN.H11MO.0.A					MAF	Maf-related factors{1.1.3}	MAF_HUMAN
+O75461	add_hocomoco_to_existing_identical_pwm	MA0471.1	MA0471.1;E2F6_HUMAN.H11MO.0.A					E2F6	E2F-related factors{3.3.2}	E2F6_HUMAN
+O75467	add_hocomoco_to_existing_identical_pwm	M07566_2.00	M07566_2.00;Z324A_HUMAN.H11MO.0.C					ZNF324	More than 3 adjacent zinc finger factors{2.3.3}	Z324A_HUMAN
+O75469	add_hocomoco_to_existing_identical_pwm	MA1533.1	MA1533.1;NR1I2_HUMAN.H11MO.0.C					NR1I2	Thyroid hormone receptor-related factors (NR1){2.1.2}	NR1I2_HUMAN
+O75593	add_hocomoco_to_existing_identical_pwm	MA0479.1	MA0479.1;FOXH1_HUMAN.H11MO.0.A					FOXH1	Forkhead box (FOX) factors{3.3.1}	FOXH1_HUMAN
+O95600	add_hocomoco_to_existing_identical_pwm	M08867_2.00	M08867_2.00;KLF8_HUMAN.H11MO.0.C					KLF8	Three-zinc finger Krüppel-related factors{2.3.1}	KLF8_HUMAN
+O95644	add_hocomoco_to_existing_identical_pwm	M03449_2.00	M03449_2.00;NFAC1_HUMAN.H11MO.0.B					NFATC1	NFAT-related factors{6.1.3}	NFAC1_HUMAN
+O95718	add_hocomoco_to_existing_identical_pwm	MA0141.3	MA0141.3;ERR2_HUMAN.H11MO.0.A					ESRRB	Steroid hormone receptors (NR3){2.1.1}	ERR2_HUMAN
+O95863	add_hocomoco_to_existing_identical_pwm	MA1558.1	MA1558.1;SNAI1_HUMAN.H11MO.0.C					SNAI1	More than 3 adjacent zinc finger factors{2.3.3}	SNAI1_HUMAN
+P01100	add_hocomoco_to_existing_identical_pwm	MA0099.2	MA0099.2;FOS_HUMAN.H11MO.0.A					FOS	Fos-related factors{1.1.2}	FOS_HUMAN
+P01106	add_hocomoco_to_existing_identical_pwm	MA0059.1	MA0059.1;MYC_HUMAN.H11MO.0.A					MYC	bHLH-ZIP factors{1.2.6}	MYC_HUMAN
+P03372	add_hocomoco_to_existing_identical_pwm	MA0112.1	MA0112.1;ESR1_HUMAN.H11MO.0.A					ESR1	Steroid hormone receptors (NR3){2.1.1}	ESR1_HUMAN
+P04150	add_hocomoco_to_existing_identical_pwm	MA0113.1	MA0113.1;GCR_HUMAN.H11MO.0.A					NR3C1	Steroid hormone receptors (NR3){2.1.1}	GCR_HUMAN
+P04198	add_hocomoco_to_existing_identical_pwm	MA0104.4	MA0104.4;MYCN_HUMAN.H11MO.0.A					MYCN	bHLH-ZIP factors{1.2.6}	MYCN_HUMAN
+P05412	add_hocomoco_to_existing_identical_pwm	MA0099.2	MA0099.2;JUN_HUMAN.H11MO.0.A					JUN	Jun-related factors{1.1.1}	JUN_HUMAN
+P05549	add_hocomoco_to_existing_identical_pwm	MA0003.1	MA0003.1;AP2A_HUMAN.H11MO.0.A					TFAP2A	AP-2{1.3.1}	AP2A_HUMAN
+P06401	upgrade_to_identical_pwm		PRGR_HUMAN.H11MO.0.A	M03923_2.00 (86.8%);M09609_2.00 (91.4%)	M02409_2.00 (54.4%);M03382_2.00 (55.4%);M05886_2.00 (55.7%);M06432_2.00 (52.9%);M07987_2.00 (56.0%);MA0007.1 (55.8%);MA0007.2 (55.5%);MA0007.3 (56.3%);MA0113.1 (54.8%);MA0727.1 (56.0%)			PGR	Steroid hormone receptors (NR3){2.1.1}	PRGR_HUMAN
+P08047	add_hocomoco_to_existing_identical_pwm	MA0079.1	MA0079.1;SP1_HUMAN.H11MO.0.A					SP1	Three-zinc finger Krüppel-related factors{2.3.1}	SP1_HUMAN
+P08651	add_hocomoco_to_existing_identical_pwm	MA0119.1	MA0119.1;NFIC_HUMAN.H11MO.0.A					NFIC	Nuclear factor 1{7.1.2}	NFIC_HUMAN
+P09086	add_hocomoco_to_existing_identical_pwm	MA0507.1	MA0507.1;PO2F2_HUMAN.H11MO.0.A					POU2F2	POU domain factors{3.1.10}	PO2F2_HUMAN
+P09629	add_hocomoco_to_existing_identical_pwm	MA1501.1	MA1501.1;HXB7_HUMAN.H11MO.0.C					HOXB7	HOX-related factors{3.1.1}	HXB7_HUMAN
+P10071	add_hocomoco_to_existing_identical_pwm	MA1491.1	MA1491.1;GLI3_HUMAN.H11MO.0.B					GLI3	More than 3 adjacent zinc finger factors{2.3.3}	GLI3_HUMAN
+P10073	add_hocomoco_to_existing_identical_pwm	M08935_2.00	M08935_2.00;ZSC22_HUMAN.H11MO.0.C					ZSCAN22	More than 3 adjacent zinc finger factors{2.3.3}	ZSC22_HUMAN
+P10242	add_hocomoco_to_existing_identical_pwm	MA0100.3	MA0100.3;MYB_HUMAN.H11MO.0.A					MYB	Myb/SANT domain factors{3.5.1}	MYB_HUMAN
+P10275	add_hocomoco_to_existing_identical_pwm	MA0007.2	MA0007.2;ANDR_HUMAN.H11MO.0.A					AR	Steroid hormone receptors (NR3){2.1.1}	ANDR_HUMAN
+P10276	add_hocomoco_to_existing_identical_pwm	MA0159.1	MA0159.1;RARA_HUMAN.H11MO.0.A					RARA	Thyroid hormone receptor-related factors (NR1){2.1.2}	RARA_HUMAN
+P10589	add_hocomoco_to_existing_identical_pwm	MA0017.1	MA0017.1;COT1_HUMAN.H11MO.0.C					NR2F1	RXR-related receptors (NR2){2.1.3}	COT1_HUMAN
+P10827	add_hocomoco_to_existing_identical_pwm	M09275_2.00	M09275_2.00;THA_HUMAN.H11MO.0.C					THRA	Thyroid hormone receptor-related factors (NR1){2.1.2}	THA_HUMAN
+P10828	add_hocomoco_to_existing_identical_pwm	MA1574.1	MA1574.1;THB_HUMAN.H11MO.0.C					THRB	Thyroid hormone receptor-related factors (NR1){2.1.2}	THB_HUMAN
+P10914	add_hocomoco_to_existing_identical_pwm	MA0050.1	MA0050.1;IRF1_HUMAN.H11MO.0.A					IRF1	Interferon-regulatory factors{3.5.3}	IRF1_HUMAN
+P11308	add_hocomoco_to_existing_identical_pwm	MA0474.2	MA0474.2;ERG_HUMAN.H11MO.0.A					ERG	Ets-related factors{3.5.2}	ERG_HUMAN
+P11473	add_hocomoco_to_existing_identical_pwm	MA0074.1	MA0074.1;VDR_HUMAN.H11MO.0.A					VDR	Thyroid hormone receptor-related factors (NR1){2.1.2}	VDR_HUMAN
+P11474	add_hocomoco_to_existing_identical_pwm	MA0592.1	MA0592.1;ERR1_HUMAN.H11MO.0.A					ESRRA	Steroid hormone receptors (NR3){2.1.1}	ERR1_HUMAN
+P11831	add_hocomoco_to_existing_identical_pwm	MA0083.1	MA0083.1;SRF_HUMAN.H11MO.0.A					SRF	Responders to external signals (SRF/RLM1){5.1.2}	SRF_HUMAN
+P12980	upgrade_to_identical_pwm		LYL1_HUMAN.H11MO.0.A		M00756_2.00 (64.0%);M01718_2.00 (50.8%);M05952_2.00 (50.8%);M05962_2.00 (52.6%);M05965_2.00 (55.9%);M06000_2.00 (57.4%);MA0048.1 (64.0%);MA0091.1 (58.0%);MA0140.1 (65.3%);MA0633.1 (50.8%);MA1123.1 (54.3%);MA1529.1 (64.0%);MA1638.1 (52.4%)	TFS_sp_P12980_LYL1_HUMAN:151:208_6od5_B_1.meme;TFS_sp_P12980_LYL1_HUMAN:151:205_7z5k_B_1.meme;DIMER_sp_P12980_LYL1_HUMAN:148:209_2ypa_A_1.meme;TFS_sp_P12980_LYL1_HUMAN:148:209_2ypa_A_1.meme;DIMER_sp_P12980_LYL1_HUMAN:150:207_2ql2_B_1.meme;DIMER_sp_P12980_LYL1_HUMAN:148:209_2ypb_A_1.meme;DIMER_sp_P12980_LYL1_HUMAN:151:208_1mdy_A_1.meme;TFS_sp_P12980_LYL1_HUMAN:150:207_2ql2_B_1.meme;DIMER_sp_P12980_LYL1_HUMAN:150:199_4h10_B_1.meme;TFS_sp_P12980_LYL1_HUMAN:151:208_1mdy_A_1.meme;TFS_sp_P12980_LYL1_HUMAN:148:209_2ypb_A_1.meme;DIMER_sp_P12980_LYL1_HUMAN:151:199_7z5i_B_1.meme;DIMER_sp_P12980_LYL1_HUMAN:151:205_7z5k_B_1.meme		LYL1	Tal-related factors{1.2.3}	LYL1_HUMAN
+P13056	add_hocomoco_to_existing_identical_pwm	MA1535.1	MA1535.1;NR2C1_HUMAN.H11MO.0.C					NR2C1	RXR-related receptors (NR2){2.1.3}	NR2C1_HUMAN
+P13631	add_hocomoco_to_existing_identical_pwm	MA1553.1	MA1553.1;RARG_HUMAN.H11MO.0.B					RARG	Thyroid hormone receptor-related factors (NR1){2.1.2}	RARG_HUMAN
+P14316	add_hocomoco_to_existing_identical_pwm	MA0051.1	MA0051.1;IRF2_HUMAN.H11MO.0.A					IRF2	Interferon-regulatory factors{3.5.3}	IRF2_HUMAN
+P14859	add_hocomoco_to_existing_identical_pwm	MA0785.1	MA0785.1;PO2F1_HUMAN.H11MO.0.C					POU2F1	POU domain factors{3.1.10}	PO2F1_HUMAN
+P14921	add_hocomoco_to_existing_identical_pwm	MA0098.1	MA0098.1;ETS1_HUMAN.H11MO.0.A					ETS1	Ets-related factors{3.5.2}	ETS1_HUMAN
+P15036	add_hocomoco_to_existing_identical_pwm	MA1484.1	MA1484.1;ETS2_HUMAN.H11MO.0.B					ETS2	Ets-related factors{3.5.2}	ETS2_HUMAN
+P15172	add_hocomoco_to_existing_identical_pwm	MA0499.2	MA0499.2;MYOD1_HUMAN.H11MO.0.A					MYOD1	MyoD / ASC-related factors{1.2.2}	MYOD1_HUMAN
+P15173	add_hocomoco_to_existing_identical_pwm	MA0500.2	MA0500.2;MYOG_HUMAN.H11MO.0.B					MYOG	MyoD / ASC-related factors{1.2.2}	MYOG_HUMAN
+P15407	add_hocomoco_to_existing_identical_pwm	MA0477.1	MA0477.1;FOSL1_HUMAN.H11MO.0.A					FOSL1	Fos-related factors{1.1.2}	FOSL1_HUMAN
+P15408	add_hocomoco_to_existing_identical_pwm	MA0478.1	MA0478.1;FOSL2_HUMAN.H11MO.0.A					FOSL2	Fos-related factors{1.1.2}	FOSL2_HUMAN
+P15622	upgrade_to_identical_pwm		ZN250_HUMAN.H11MO.0.C	M08944_2.00 (99.1%)	M00142_2.00 (50.0%);M00217_2.00 (50.7%);M00782_2.00 (59.4%);M00939_2.00 (67.0%);M00943_2.00 (61.1%);M00944_2.00 (62.3%);M00945_2.00 (54.0%);M00948_2.00 (61.1%);M00950_2.00 (60.0%);M00952_2.00 (63.0%);M00953_2.00 (62.3%);M00955_2.00 (65.8%);M00958_2.00 (61.1%);M00959_2.00 (61.1%);M00960_2.00 (61.1%);M01044_2.00 (50.3%);M01442_2.00 (50.8%);M02924_2.00 (63.7%);M04387_2.00 (58.9%);M04536_2.00 (50.2%);M04590_2.00 (50.4%);M04598_2.00 (53.9%);M04611_2.00 (54.6%);M04613_2.00 (63.1%);M04621_2.00 (54.7%);M04650_2.00 (60.0%);M04653_2.00 (59.7%);M05844_2.00 (52.0%);M07562_2.00 (52.9%);M07581_2.00 (58.3%);M07587_2.00 (59.2%);M07588_2.00 (58.2%);M07610_2.00 (58.6%);M07613_2.00 (51.2%);M07648_2.00 (51.2%);M07656_2.00 (51.0%);M07657_2.00 (53.9%);M07660_2.00 (55.3%);M07683_2.00 (57.1%);M07747_2.00 (53.2%);M07753_2.00 (57.4%);M08254_2.00 (57.2%);M08263_2.00 (59.6%);M08267_2.00 (61.7%);M08283_2.00 (51.5%);M08292_2.00 (56.8%);M08295_2.00 (50.9%);M08300_2.00 (52.8%);M08314_2.00 (53.5%);M08325_2.00 (60.8%);M08329_2.00 (52.6%);M08334_2.00 (56.9%);M08335_2.00 (52.4%);M08355_2.00 (55.3%);M08375_2.00 (61.5%);M08395_2.00 (53.4%);M08859_2.00 (52.7%);M08901_2.00 (55.0%);M08985_2.00 (60.5%);M10391_2.00 (50.0%);MA0056.1 (51.4%);MA0493.1 (50.0%);MA0746.1 (51.2%);MA0747.1 (50.0%);MA1124.1 (63.1%);MA1154.1 (52.5%);MA1564.1 (50.0%);MA1601.1 (57.1%);MA1602.1 (54.6%);MA1656.1 (51.7%)			ZNF250	More than 3 adjacent zinc finger factors{2.3.3}	ZN250_HUMAN
+P15884	add_hocomoco_to_existing_identical_pwm	MA0830.1	MA0830.1;ITF2_HUMAN.H11MO.0.C					TCF4	E2A-related factors{1.2.1}	ITF2_HUMAN
+P15976	add_hocomoco_to_existing_identical_pwm	MA0035.4	MA0035.4;GATA1_HUMAN.H11MO.0.A					GATA1	GATA-type zinc fingers{2.2.1}	GATA1_HUMAN
+P16220	add_hocomoco_to_existing_identical_pwm	MA0018.1	MA0018.1;CREB1_HUMAN.H11MO.0.A					CREB1	CREB-related factors{1.1.7}	CREB1_HUMAN
+P17010	upgrade_to_identical_pwm		ZFX_HUMAN.H11MO.0.A	MA0146.1 (94.9%)	M04486_2.00 (50.0%);M08541_2.00 (50.0%)			ZFX	More than 3 adjacent zinc finger factors{2.3.3}	ZFX_HUMAN
+P17019	upgrade_to_identical_pwm		ZN708_HUMAN.H11MO.0.C	M00955_2.00 (77.6%);M07687_2.00 (72.3%);M07714_2.00 (70.3%);M08381_2.00 (73.4%);M08921_2.00 (70.2%);M08934_2.00 (85.5%)	M00134_2.00 (52.5%);M00142_2.00 (51.7%);M00224_2.00 (50.0%);M00609_2.00 (51.6%);M00641_2.00 (50.0%);M00782_2.00 (55.8%);M00786_2.00 (50.2%);M00939_2.00 (63.0%);M00943_2.00 (64.2%);M00944_2.00 (64.2%);M00945_2.00 (59.7%);M00948_2.00 (61.1%);M00950_2.00 (64.7%);M00952_2.00 (65.4%);M00953_2.00 (65.4%);M00958_2.00 (61.9%);M00959_2.00 (62.3%);M00960_2.00 (64.7%);M01456_2.00 (50.9%);M01474_2.00 (53.0%);M02924_2.00 (58.9%);M03671_2.00 (51.7%);M03686_2.00 (53.4%);M04387_2.00 (54.9%);M04465_2.00 (54.2%);M04515_2.00 (54.8%);M04536_2.00 (50.8%);M04598_2.00 (54.7%);M04611_2.00 (55.1%);M04613_2.00 (52.0%);M04650_2.00 (56.9%);M04653_2.00 (61.2%);M05853_2.00 (50.2%);M07562_2.00 (52.3%);M07565_2.00 (69.1%);M07575_2.00 (65.1%);M07578_2.00 (54.4%);M07581_2.00 (56.7%);M07586_2.00 (65.3%);M07587_2.00 (52.3%);M07588_2.00 (52.1%);M07610_2.00 (53.4%);M07649_2.00 (51.6%);M07678_2.00 (50.3%);M07683_2.00 (55.7%);M07712_2.00 (52.1%);M07715_2.00 (66.9%);M07717_2.00 (50.9%);M07753_2.00 (57.1%);M07761_2.00 (66.4%);M07764_2.00 (51.2%);M07767_2.00 (58.2%);M07775_2.00 (69.0%);M08245_2.00 (55.4%);M08254_2.00 (51.8%);M08263_2.00 (54.7%);M08267_2.00 (58.1%);M08295_2.00 (66.6%);M08314_2.00 (52.2%);M08325_2.00 (61.0%);M08329_2.00 (56.1%);M08334_2.00 (54.3%);M08355_2.00 (54.6%);M08373_2.00 (53.4%);M08375_2.00 (60.5%);M08395_2.00 (54.5%);M08859_2.00 (50.3%);M08889_2.00 (52.7%);M08985_2.00 (67.8%);MA1124.1 (63.3%);MA1599.1 (63.6%);MA1601.1 (55.7%);MA1602.1 (53.5%);MA1656.1 (50.7%)			ZNF708	More than 3 adjacent zinc finger factors{2.3.3}	ZN708_HUMAN
+P17022	add_hocomoco_to_existing_identical_pwm	M08901_2.00	M08901_2.00;ZNF18_HUMAN.H11MO.0.C					ZNF18	More than 3 adjacent zinc finger factors{2.3.3}	ZNF18_HUMAN
+P17029	add_hocomoco_to_existing_identical_pwm	MA1585.1	MA1585.1;ZKSC1_HUMAN.H11MO.0.B					ZKSCAN1	More than 3 adjacent zinc finger factors{2.3.3}	ZKSC1_HUMAN
+P17098	upgrade_to_identical_pwm		ZNF8_HUMAN.H11MO.0.C	M00149_2.00 (73.2%)	M00609_2.00 (55.9%);M00782_2.00 (51.2%);M00786_2.00 (59.7%);M00939_2.00 (62.3%);M00943_2.00 (62.3%);M00944_2.00 (65.4%);M00945_2.00 (54.0%);M00948_2.00 (61.9%);M00950_2.00 (63.0%);M00952_2.00 (63.0%);M00953_2.00 (64.2%);M00955_2.00 (63.0%);M00958_2.00 (60.0%);M00959_2.00 (61.1%);M00960_2.00 (64.7%);M01529_2.00 (51.7%);M02924_2.00 (59.6%);M04387_2.00 (53.9%);M04465_2.00 (51.0%);M04475_2.00 (60.1%);M04536_2.00 (57.6%);M04598_2.00 (51.3%);M04611_2.00 (58.4%);M04613_2.00 (57.2%);M04650_2.00 (56.7%);M06179_2.00 (50.0%);M07562_2.00 (57.3%);M07650_2.00 (50.4%);M07666_2.00 (50.6%);M07683_2.00 (53.1%);M08254_2.00 (50.5%);M08325_2.00 (58.6%);M08355_2.00 (51.6%);M08392_2.00 (50.0%);M08985_2.00 (59.7%);MA1124.1 (54.9%);MA1601.1 (53.1%);MA1602.1 (56.0%)			ZNF8	Factors with multiple dispersed zinc fingers{2.3.4}	ZNF8_HUMAN
+P17275	add_hocomoco_to_existing_identical_pwm	MA0490.1	MA0490.1;JUNB_HUMAN.H11MO.0.A					JUNB	Jun-related factors{1.1.1}	JUNB_HUMAN
+P17481	add_hocomoco_to_existing_identical_pwm	MA1502.1	MA1502.1;HXB8_HUMAN.H11MO.0.C					HOXB8	HOX-related factors{3.1.1}	HXB8_HUMAN
+P17483	add_hocomoco_to_existing_identical_pwm	MA1499.1	MA1499.1;HXB4_HUMAN.H11MO.0.B					HOXB4	HOX-related factors{3.1.1}	HXB4_HUMAN
+P17535	add_hocomoco_to_existing_identical_pwm	MA0491.1	MA0491.1;JUND_HUMAN.H11MO.0.A					JUND	Jun-related factors{1.1.1}	JUND_HUMAN
+P17542	add_hocomoco_to_existing_identical_pwm	MA0091.1	MA0091.1;TAL1_HUMAN.H11MO.0.A					TAL1	Tal-related factors{1.2.3}	TAL1_HUMAN
+P17676	add_hocomoco_to_existing_identical_pwm	MA0466.1	MA0466.1;CEBPB_HUMAN.H11MO.0.A					CEBPB	C/EBP-related{1.1.8}	CEBPB_HUMAN
+P17947	add_hocomoco_to_existing_identical_pwm	MA0080.1	MA0080.1;SPI1_HUMAN.H11MO.0.A					SPI1	Ets-related factors{3.5.2}	SPI1_HUMAN
+P18146	add_hocomoco_to_existing_identical_pwm	MA0162.2	MA0162.2;EGR1_HUMAN.H11MO.0.A					EGR1	Three-zinc finger Krüppel-related factors{2.3.1}	EGR1_HUMAN
+P18846	add_hocomoco_to_existing_identical_pwm	M09485_2.00	M09485_2.00;ATF1_HUMAN.H11MO.0.B					ATF1	CREB-related factors{1.1.7}	ATF1_HUMAN
+P18847	add_hocomoco_to_existing_identical_pwm	MA0605.2	MA0605.2;ATF3_HUMAN.H11MO.0.A					ATF3	Fos-related factors{1.1.2}	ATF3_HUMAN
+P18848	add_hocomoco_to_existing_identical_pwm	MA0833.1	MA0833.1;ATF4_HUMAN.H11MO.0.A					ATF4	ATF-4-related factors{1.1.6}	ATF4_HUMAN
+P18850	add_hocomoco_to_existing_identical_pwm	MA1466.1	MA1466.1;ATF6A_HUMAN.H11MO.0.B					ATF6	CREB-related factors{1.1.7}	ATF6A_HUMAN
+P19419	add_hocomoco_to_existing_identical_pwm	MA0028.1	MA0028.1;ELK1_HUMAN.H11MO.0.B					ELK1	Ets-related factors{3.5.2}	ELK1_HUMAN
+P19484	add_hocomoco_to_existing_identical_pwm	MA0692.1	MA0692.1;TFEB_HUMAN.H11MO.0.C					TFEB	bHLH-ZIP factors{1.2.6}	TFEB_HUMAN
+P19532	add_hocomoco_to_existing_identical_pwm	MA0831.1	MA0831.1;TFE3_HUMAN.H11MO.0.B					TFE3	bHLH-ZIP factors{1.2.6}	TFE3_HUMAN
+P19544	upgrade_to_identical_pwm		WT1_HUMAN.H11MO.0.C	M00249_2.00 (94.0%);M08968_2.00 (93.1%);MA1627.1 (96.2%)	M00134_2.00 (56.9%);M00224_2.00 (59.2%);M00617_2.00 (54.8%);M00632_2.00 (56.5%);M00645_2.00 (56.0%);M00777_2.00 (56.1%);M00779_2.00 (51.4%);M00950_2.00 (52.2%);M00952_2.00 (50.0%);M00959_2.00 (54.4%);M00960_2.00 (51.1%);M01033_2.00 (50.0%);M01035_2.00 (54.1%);M01036_2.00 (50.0%);M01039_2.00 (50.8%);M01042_2.00 (54.7%);M01180_2.00 (52.1%);M01192_2.00 (55.3%);M01442_2.00 (52.4%);M02903_2.00 (52.6%);M03682_2.00 (54.2%);M04430_2.00 (57.8%);M04463_2.00 (59.2%);M04555_2.00 (54.5%);M04611_2.00 (50.0%);M06072_2.00 (64.0%);M06169_2.00 (60.4%);M06466_2.00 (51.1%);M08246_2.00 (52.8%);M08525_2.00 (55.1%);M08528_2.00 (51.7%);M08867_2.00 (55.8%);M09008_2.00 (51.9%);M09515_2.00 (62.6%);MA0039.1 (59.2%);MA0039.3 (59.2%);MA0162.1 (61.0%);MA0162.2 (61.0%);MA0472.1 (62.6%);MA0472.2 (62.6%);MA0493.1 (51.9%);MA0516.1 (50.0%);MA0599.1 (56.3%);MA0732.1 (61.7%);MA0733.1 (57.9%);MA0740.1 (52.1%);MA0742.1 (57.8%);MA0747.1 (54.2%);MA0748.1 (50.0%);MA1511.1 (52.8%);MA1512.1 (54.5%);MA1513.1 (58.0%);MA1515.1 (58.0%);MA1516.1 (53.9%);MA1517.1 (55.4%);MA1564.1 (54.2%)			WT1	More than 3 adjacent zinc finger factors{2.3.3}	WT1_HUMAN
+P19793	add_hocomoco_to_existing_identical_pwm	MA0065.1	MA0065.1;RXRA_HUMAN.H11MO.0.A					RXRA	RXR-related receptors (NR2){2.1.3}	RXRA_HUMAN
+P19838	add_hocomoco_to_existing_identical_pwm	MA0105.1	MA0105.1;NFKB1_HUMAN.H11MO.1.B					NFKB1	NF-kappaB-related factors{6.1.1}	NFKB1_HUMAN
+P20226	add_hocomoco_to_existing_identical_pwm	MA0108.2	MA0108.2;TBP_HUMAN.H11MO.0.A					TBP	TBP-related factors{8.1.1}	TBP_HUMAN
+P20265	add_hocomoco_to_existing_identical_pwm	MA0787.1	MA0787.1;PO3F2_HUMAN.H11MO.0.A					POU3F2	POU domain factors{3.1.10}	PO3F2_HUMAN
+P20393	add_hocomoco_to_existing_identical_pwm	MA1531.1	MA1531.1;NR1D1_HUMAN.H11MO.0.B					NR1D1	Thyroid hormone receptor-related factors (NR1){2.1.2}	NR1D1_HUMAN
+P20823	upgrade_to_identical_pwm		HNF1A_HUMAN.H11MO.0.C	M00171_2.00 (94.7%);M00408_2.00 (82.3%);M09144_2.00 (95.3%);MA0046.1 (99.8%)	MA0153.1 (53.3%)			HNF1A	POU domain factors{3.1.10}	HNF1A_HUMAN
+P22415	add_hocomoco_to_existing_identical_pwm	MA0093.1	MA0093.1;USF1_HUMAN.H11MO.0.A					USF1	bHLH-ZIP factors{1.2.6}	USF1_HUMAN
+P22670	upgrade_to_identical_pwm		RFX1_HUMAN.H11MO.0.B	MA0509.1 (90.7%)	M02450_2.00 (53.0%);M02451_2.00 (62.5%);M02454_2.00 (59.0%);M03463_2.00 (59.9%);M03963_2.00 (54.5%);M09366_2.00 (57.7%);MA0600.1 (56.1%);MA0798.1 (60.0%)			RFX1	RFX-related factors{3.3.3}	RFX1_HUMAN
+P22736	add_hocomoco_to_existing_identical_pwm	MA1112.1	MA1112.1;NR4A1_HUMAN.H11MO.0.A					NR4A1	NGFI-B-related receptors (NR4){2.1.4}	NR4A1_HUMAN
+P23409	add_hocomoco_to_existing_identical_pwm	MA0667.1	MA0667.1;MYF6_HUMAN.H11MO.0.C					MYF6	MyoD / ASC-related factors{1.2.2}	MYF6_HUMAN
+P23511	add_hocomoco_to_existing_identical_pwm	MA0060.1	MA0060.1;NFYA_HUMAN.H11MO.0.A					NFYA	Heteromeric CCAAT-binding factors{4.2.1}	NFYA_HUMAN
+P23769	add_hocomoco_to_existing_identical_pwm	MA0036.1	MA0036.1;GATA2_HUMAN.H11MO.0.A					GATA2	GATA-type zinc fingers{2.2.1}	GATA2_HUMAN
+P23771	add_hocomoco_to_existing_identical_pwm	MA0037.1	MA0037.1;GATA3_HUMAN.H11MO.0.A					GATA3	GATA-type zinc fingers{2.2.1}	GATA3_HUMAN
+P24468	add_hocomoco_to_existing_identical_pwm	MA1111.1	MA1111.1;COT2_HUMAN.H11MO.0.A					NR2F2	RXR-related receptors (NR2){2.1.3}	COT2_HUMAN
+P25208	add_hocomoco_to_existing_identical_pwm	MA0502.1	MA0502.1;NFYB_HUMAN.H11MO.0.A					NFYB	Heteromeric CCAAT-binding factors{4.2.1}	NFYB_HUMAN
+P26367	add_hocomoco_to_existing_identical_pwm	MA0069.1	MA0069.1;PAX6_HUMAN.H11MO.0.C					PAX6	Paired plus homeo domain{3.2.1}	PAX6_HUMAN
+P27540	add_hocomoco_to_existing_identical_pwm	MA0259.1	MA0259.1;ARNT_HUMAN.H11MO.0.B					ARNT	PAS domain factors{1.2.5}	ARNT_HUMAN
+P28069	add_hocomoco_to_existing_identical_pwm	MA0784.1	MA0784.1;PIT1_HUMAN.H11MO.0.C					POU1F1	POU domain factors{3.1.10}	PIT1_HUMAN
+P28324	add_hocomoco_to_existing_identical_pwm	MA0076.1	MA0076.1;ELK4_HUMAN.H11MO.0.A					ELK4	Ets-related factors{3.5.2}	ELK4_HUMAN
+P28347	add_hocomoco_to_existing_identical_pwm	MA0090.1	MA0090.1;TEAD1_HUMAN.H11MO.0.A					TEAD1	TEF-1-related factors{3.6.1}	TEAD1_HUMAN
+P28698	add_hocomoco_to_existing_identical_pwm	MA0056.1	MA0056.1;MZF1_HUMAN.H11MO.0.B					MZF1	More than 3 adjacent zinc finger factors{2.3.3}	MZF1_HUMAN
+P28702	add_hocomoco_to_existing_identical_pwm	MA0855.1	MA0855.1;RXRB_HUMAN.H11MO.0.C					RXRB	RXR-related receptors (NR2){2.1.3}	RXRB_HUMAN
+P31260	add_hocomoco_to_existing_identical_pwm	MA0899.1	MA0899.1;HXA10_HUMAN.H11MO.0.C					HOXA10	HOX-related factors{3.1.1}	HXA10_HUMAN
+P31269	add_hocomoco_to_existing_identical_pwm	MA0594.2	MA0594.2;HXA9_HUMAN.H11MO.0.B					HOXA9	HOX-related factors{3.1.1}	HXA9_HUMAN
+P31271	add_hocomoco_to_existing_identical_pwm	MA0650.1	MA0650.1;HXA13_HUMAN.H11MO.0.C					HOXA13	HOX-related factors{3.1.1}	HXA13_HUMAN
+P31274	add_hocomoco_to_existing_identical_pwm	MA0485.2	MA0485.2;HXC9_HUMAN.H11MO.0.C					HOXC9	HOX-related factors{3.1.1}	HXC9_HUMAN
+P32243	add_hocomoco_to_existing_identical_pwm	MA0712.1	MA0712.1;OTX2_HUMAN.H11MO.0.A					OTX2	Paired-related HD factors{3.1.3}	OTX2_HUMAN
+P32519	add_hocomoco_to_existing_identical_pwm	MA0473.1	MA0473.1;ELF1_HUMAN.H11MO.0.A					ELF1	Ets-related factors{3.5.2}	ELF1_HUMAN
+P35398	add_hocomoco_to_existing_identical_pwm	MA0071.1	MA0071.1;RORA_HUMAN.H11MO.0.C					RORA	Thyroid hormone receptor-related factors (NR1){2.1.2}	RORA_HUMAN
+P35680	add_hocomoco_to_existing_identical_pwm	MA0153.1	MA0153.1;HNF1B_HUMAN.H11MO.0.A					HNF1B	POU domain factors{3.1.10}	HNF1B_HUMAN
+P35711	add_hocomoco_to_existing_identical_pwm	M11309_2.00	M11309_2.00;SOX5_HUMAN.H11MO.0.C					SOX5	SOX-related factors{4.1.1}	SOX5_HUMAN
+P35869	add_hocomoco_to_existing_identical_pwm	M08716_2.00	M08716_2.00;AHR_HUMAN.H11MO.0.B					AHR	PAS domain factors{1.2.5}	AHR_HUMAN
+P36402	add_hocomoco_to_existing_identical_pwm	MA0769.2	MA0769.2;TCF7_HUMAN.H11MO.0.A					TCF7	TCF-7-related factors{4.1.3}	TCF7_HUMAN
+P36508	upgrade_to_identical_pwm		ZNF76_HUMAN.H11MO.0.C		M00944_2.00 (52.7%);M00950_2.00 (58.2%);M00953_2.00 (56.0%);M00960_2.00 (58.2%);M04387_2.00 (50.0%);M06466_2.00 (50.6%);MA0088.1 (54.2%);MA0088.2 (56.8%)	TFS_sp_P36508_ZNF76_HUMAN:163:279_6b0q_D_1.meme;TFS_sp_P36508_ZNF76_HUMAN:163:279_2prt_A_1.meme;TFS_sp_P36508_ZNF76_HUMAN:195:354_1tf6_A_1.meme;TFS_sp_P36508_ZNF76_HUMAN:163:279_6b0o_A_1.meme;TFS_sp_P36508_ZNF76_HUMAN:163:279_6b0p_D_1.meme		ZNF76	More than 3 adjacent zinc finger factors{2.3.3}	ZNF76_HUMAN
+P36956	add_hocomoco_to_existing_identical_pwm	MA0595.1	MA0595.1;SRBP1_HUMAN.H11MO.0.A					SREBF1	bHLH-ZIP factors{1.2.6}	SRBP1_HUMAN
+P37231	add_hocomoco_to_existing_identical_pwm	MA0065.1	MA0065.1;PPARG_HUMAN.H11MO.0.A					PPARG	Thyroid hormone receptor-related factors (NR1){2.1.2}	PPARG_HUMAN
+P37275	add_hocomoco_to_existing_identical_pwm	MA0103.2	MA0103.2;ZEB1_HUMAN.H11MO.0.A					ZEB1	HD-ZF factors{3.1.8}	ZEB1_HUMAN
+P39880	add_hocomoco_to_existing_identical_pwm	MA0754.1	MA0754.1;CUX1_HUMAN.H11MO.0.C					CUX1	HD-CUT factors{3.1.9}	CUX1_HUMAN
+P40424	add_hocomoco_to_existing_identical_pwm	MA0070.1	MA0070.1;PBX1_HUMAN.H11MO.0.A					PBX1	TALE-type homeo domain factors{3.1.4}	PBX1_HUMAN
+P40425	add_hocomoco_to_existing_identical_pwm	MA1113.1	MA1113.1;PBX2_HUMAN.H11MO.0.C					PBX2	TALE-type homeo domain factors{3.1.4}	PBX2_HUMAN
+P40426	add_hocomoco_to_existing_identical_pwm	MA1114.1	MA1114.1;PBX3_HUMAN.H11MO.0.A					PBX3	TALE-type homeo domain factors{3.1.4}	PBX3_HUMAN
+P40763	add_hocomoco_to_existing_identical_pwm	MA0144.2	MA0144.2;STAT3_HUMAN.H11MO.0.A					STAT3	STAT factors{6.2.1}	STAT3_HUMAN
+P41161	add_hocomoco_to_existing_identical_pwm	MA0765.1	MA0765.1;ETV5_HUMAN.H11MO.0.C					ETV5	Ets-related factors{3.5.2}	ETV5_HUMAN
+P41225	add_hocomoco_to_existing_identical_pwm	M05769_2.00	M05769_2.00;SOX3_HUMAN.H11MO.0.B					SOX3	SOX-related factors{4.1.1}	SOX3_HUMAN
+P41235	add_hocomoco_to_existing_identical_pwm	MA0114.1	MA0114.1;HNF4A_HUMAN.H11MO.0.A					HNF4A	RXR-related receptors (NR2){2.1.3}	HNF4A_HUMAN
+P42224	add_hocomoco_to_existing_identical_pwm	MA0137.3	MA0137.3;STAT1_HUMAN.H11MO.0.A					STAT1	STAT factors{6.2.1}	STAT1_HUMAN
+P42229	add_hocomoco_to_existing_identical_pwm	M11356_2.00	M11356_2.00;STA5A_HUMAN.H11MO.0.A					STAT5A	STAT factors{6.2.1}	STA5A_HUMAN
+P43268	add_hocomoco_to_existing_identical_pwm	MA0764.1	MA0764.1;ETV4_HUMAN.H11MO.0.B					ETV4	Ets-related factors{3.5.2}	ETV4_HUMAN
+P43354	add_hocomoco_to_existing_identical_pwm	MA0160.1	MA0160.1;NR4A2_HUMAN.H11MO.0.C					NR4A2	NGFI-B-related receptors (NR4){2.1.4}	NR4A2_HUMAN
+P43694	add_hocomoco_to_existing_identical_pwm	MA0482.2	MA0482.2;GATA4_HUMAN.H11MO.0.A					GATA4	GATA-type zinc fingers{2.2.1}	GATA4_HUMAN
+P43699	add_hocomoco_to_existing_identical_pwm	M09146_2.00	M09146_2.00;NKX21_HUMAN.H11MO.0.A					NKX2-1	NK-related factors{3.1.2}	NKX21_HUMAN
+P47902	add_hocomoco_to_existing_identical_pwm	MA0878.1	MA0878.1;CDX1_HUMAN.H11MO.0.C					CDX1	HOX-related factors{3.1.1}	CDX1_HUMAN
+P48378	add_hocomoco_to_existing_identical_pwm	MA0600.1	MA0600.1;RFX2_HUMAN.H11MO.0.A					RFX2	RFX-related factors{3.3.3}	RFX2_HUMAN
+P48380	add_hocomoco_to_existing_identical_pwm	MA0798.1	MA0798.1;RFX3_HUMAN.H11MO.0.B					RFX3	RFX-related factors{3.3.3}	RFX3_HUMAN
+P48382	add_hocomoco_to_existing_identical_pwm	MA0510.1	MA0510.1;RFX5_HUMAN.H11MO.0.A					RFX5	RFX-related factors{3.3.3}	RFX5_HUMAN
+P48431	add_hocomoco_to_existing_identical_pwm	MA0143.4	MA0143.4;SOX2_HUMAN.H11MO.0.A					SOX2	SOX-related factors{4.1.1}	SOX2_HUMAN
+P48443	add_hocomoco_to_existing_identical_pwm	MA0856.1	MA0856.1;RXRG_HUMAN.H11MO.0.B					RXRG	RXR-related receptors (NR2){2.1.3}	RXRG_HUMAN
+P49116	add_hocomoco_to_existing_identical_pwm	MA0504.1	MA0504.1;NR2C2_HUMAN.H11MO.0.B					NR2C2	RXR-related receptors (NR2){2.1.3}	NR2C2_HUMAN
+P49639	add_hocomoco_to_existing_identical_pwm	M04959_2.00	M04959_2.00;HXA1_HUMAN.H11MO.0.C					HOXA1	HOX-related factors{3.1.1}	HXA1_HUMAN
+P49715	add_hocomoco_to_existing_identical_pwm	MA0102.3	MA0102.3;CEBPA_HUMAN.H11MO.0.A					CEBPA	C/EBP-related{1.1.8}	CEBPA_HUMAN
+P49716	add_hocomoco_to_existing_identical_pwm	MA0836.1	MA0836.1;CEBPD_HUMAN.H11MO.0.C					CEBPD	C/EBP-related{1.1.8}	CEBPD_HUMAN
+P50458	add_hocomoco_to_existing_identical_pwm	MA0700.1	MA0700.1;LHX2_HUMAN.H11MO.0.A					LHX2	HD-LIM factors{3.1.5}	LHX2_HUMAN
+P50539	add_hocomoco_to_existing_identical_pwm	MA1108.1	MA1108.1;MXI1_HUMAN.H11MO.0.A					MXI1	bHLH-ZIP factors{1.2.6}	MXI1_HUMAN
+P50549	add_hocomoco_to_existing_identical_pwm	MA0761.1	MA0761.1;ETV1_HUMAN.H11MO.0.A					ETV1	Ets-related factors{3.5.2}	ETV1_HUMAN
+P50553	add_hocomoco_to_existing_identical_pwm	MA1100.1	MA1100.1;ASCL1_HUMAN.H11MO.0.A					ASCL1	MyoD / ASC-related factors{1.2.2}	ASCL1_HUMAN
+P51449	add_hocomoco_to_existing_identical_pwm	MA1151.1	MA1151.1;RORG_HUMAN.H11MO.0.C					RORC	Thyroid hormone receptor-related factors (NR1){2.1.2}	RORG_HUMAN
+P51608	add_hocomoco_to_existing_identical_pwm	M09257_2.00	M09257_2.00;MECP2_HUMAN.H11MO.0.C					MECP2		MECP2_HUMAN
+P51692	add_hocomoco_to_existing_identical_pwm	M09417_2.00	M09417_2.00;STA5B_HUMAN.H11MO.0.A					STAT5B	STAT factors{6.2.1}	STA5B_HUMAN
+P51814	upgrade_to_identical_pwm		ZNF41_HUMAN.H11MO.0.C	M08245_2.00 (94.8%)	M00142_2.00 (54.0%);M00217_2.00 (50.7%);M00609_2.00 (51.3%);M00782_2.00 (59.5%);M00786_2.00 (52.3%);M00939_2.00 (61.1%);M00943_2.00 (63.5%);M00944_2.00 (61.1%);M00945_2.00 (57.4%);M00948_2.00 (61.1%);M00950_2.00 (60.0%);M00952_2.00 (63.5%);M00953_2.00 (62.3%);M00955_2.00 (62.3%);M00958_2.00 (62.3%);M00959_2.00 (62.3%);M00960_2.00 (63.5%);M01457_2.00 (50.9%);M01474_2.00 (52.9%);M02924_2.00 (60.8%);M04387_2.00 (55.8%);M04465_2.00 (54.2%);M04505_2.00 (53.3%);M04536_2.00 (52.3%);M04590_2.00 (50.8%);M04598_2.00 (62.7%);M04613_2.00 (62.3%);M04621_2.00 (53.3%);M04650_2.00 (54.3%);M05853_2.00 (54.1%);M06179_2.00 (50.9%);M07562_2.00 (50.2%);M07565_2.00 (56.2%);M07566_2.00 (51.5%);M07578_2.00 (52.3%);M07581_2.00 (61.9%);M07582_2.00 (51.5%);M07586_2.00 (51.9%);M07590_2.00 (57.6%);M07607_2.00 (51.4%);M07610_2.00 (59.2%);M07613_2.00 (56.9%);M07618_2.00 (54.0%);M07620_2.00 (58.3%);M07645_2.00 (51.9%);M07648_2.00 (55.6%);M07649_2.00 (54.5%);M07657_2.00 (51.0%);M07660_2.00 (54.3%);M07667_2.00 (55.3%);M07683_2.00 (51.8%);M07684_2.00 (53.3%);M07687_2.00 (55.7%);M07699_2.00 (50.1%);M07707_2.00 (50.9%);M07712_2.00 (51.9%);M07714_2.00 (53.0%);M07715_2.00 (53.5%);M07723_2.00 (50.2%);M07740_2.00 (51.0%);M07753_2.00 (53.8%);M07754_2.00 (55.2%);M07761_2.00 (53.0%);M07764_2.00 (53.9%);M07767_2.00 (51.7%);M07775_2.00 (52.8%);M08247_2.00 (51.2%);M08252_2.00 (56.0%);M08254_2.00 (58.2%);M08255_2.00 (53.2%);M08256_2.00 (53.0%);M08267_2.00 (60.0%);M08274_2.00 (52.4%);M08292_2.00 (52.6%);M08309_2.00 (56.1%);M08311_2.00 (52.7%);M08312_2.00 (54.2%);M08314_2.00 (52.3%);M08325_2.00 (55.3%);M08329_2.00 (58.3%);M08330_2.00 (53.2%);M08334_2.00 (55.1%);M08347_2.00 (57.8%);M08355_2.00 (56.2%);M08365_2.00 (64.0%);M08366_2.00 (50.2%);M08371_2.00 (53.4%);M08373_2.00 (56.6%);M08375_2.00 (54.1%);M08381_2.00 (52.2%);M08395_2.00 (57.4%);M08859_2.00 (51.8%);M08860_2.00 (52.4%);M08887_2.00 (57.3%);M08901_2.00 (56.9%);M08908_2.00 (50.0%);M08934_2.00 (56.2%);M08944_2.00 (58.2%);M08949_2.00 (53.8%);M08985_2.00 (59.4%);MA1124.1 (59.3%);MA1154.1 (56.1%);MA1587.1 (57.5%);MA1596.1 (51.2%);MA1599.1 (53.5%);MA1601.1 (51.8%);MA1602.1 (53.8%);MA1656.1 (54.3%)			ZNF41	More than 3 adjacent zinc finger factors{2.3.3}	ZNF41_HUMAN
+P52630	add_hocomoco_to_existing_identical_pwm	MA0517.1	MA0517.1;STAT2_HUMAN.H11MO.0.A					STAT2	STAT factors{6.2.1}	STAT2_HUMAN
+P52737	add_hocomoco_to_existing_identical_pwm	MA1588.1	MA1588.1;ZN136_HUMAN.H11MO.0.C					ZNF136	More than 3 adjacent zinc finger factors{2.3.3}	ZN136_HUMAN
+P52738	add_hocomoco_to_existing_identical_pwm	MA1589.1	MA1589.1;ZN140_HUMAN.H11MO.0.C					ZNF140	More than 3 adjacent zinc finger factors{2.3.3}	ZN140_HUMAN
+P52741	add_hocomoco_to_existing_identical_pwm	M08392_2.00	M08392_2.00;ZN134_HUMAN.H11MO.0.C					ZNF134	Factors with multiple dispersed zinc fingers{2.3.4}	ZN134_HUMAN
+P52747	add_hocomoco_to_existing_identical_pwm	MA0088.2	MA0088.2;ZN143_HUMAN.H11MO.0.A					ZNF143	More than 3 adjacent zinc finger factors{2.3.3}	ZN143_HUMAN
+P52945	add_hocomoco_to_existing_identical_pwm	MA0132.2	MA0132.2;PDX1_HUMAN.H11MO.0.A					PDX1	HOX-related factors{3.1.1}	PDX1_HUMAN
+P52952	add_hocomoco_to_existing_identical_pwm	MA0063.2	MA0063.2;NKX25_HUMAN.H11MO.0.B					NKX2-5	NK-related factors{3.1.2}	NKX25_HUMAN
+P53539	add_hocomoco_to_existing_identical_pwm	MA1127.1	MA1127.1;FOSB_HUMAN.H11MO.0.A					FOSB	Fos-related factors{1.1.2}	FOSB_HUMAN
+P53567	add_hocomoco_to_existing_identical_pwm	MA0838.1	MA0838.1;CEBPG_HUMAN.H11MO.0.B					CEBPG	C/EBP-related{1.1.8}	CEBPG_HUMAN
+P55317	add_hocomoco_to_existing_identical_pwm	MA0148.1	MA0148.1;FOXA1_HUMAN.H11MO.0.A					FOXA1	Forkhead box (FOX) factors{3.3.1}	FOXA1_HUMAN
+P55318	add_hocomoco_to_existing_identical_pwm	MA1683.1	MA1683.1;FOXA3_HUMAN.H11MO.0.B					FOXA3	Forkhead box (FOX) factors{3.3.1}	FOXA3_HUMAN
+P55347	add_hocomoco_to_existing_identical_pwm	MA0782.1	MA0782.1;PKNX1_HUMAN.H11MO.0.B					PKNOX1	TALE-type homeo domain factors{3.1.4}	PKNX1_HUMAN
+P56270	add_hocomoco_to_existing_identical_pwm	MA1522.1	MA1522.1;MAZ_HUMAN.H11MO.0.A					MAZ	Factors with multiple dispersed zinc fingers{2.3.4}	MAZ_HUMAN
+P56693	add_hocomoco_to_existing_identical_pwm	MA0442.1	MA0442.1;SOX10_HUMAN.H11MO.0.B					SOX10	SOX-related factors{4.1.1}	SOX10_HUMAN
+P57682	add_hocomoco_to_existing_identical_pwm	MA1516.1	MA1516.1;KLF3_HUMAN.H11MO.0.B					KLF3	Three-zinc finger Krüppel-related factors{2.3.1}	KLF3_HUMAN
+P58317	upgrade_to_identical_pwm		ZN121_HUMAN.H11MO.0.C		M00134_2.00 (54.2%);M00224_2.00 (50.0%);M00609_2.00 (50.4%);M00782_2.00 (57.3%);M00939_2.00 (67.8%);M00943_2.00 (58.8%);M00944_2.00 (60.0%);M00945_2.00 (57.4%);M00948_2.00 (61.1%);M00950_2.00 (62.3%);M00952_2.00 (61.1%);M00953_2.00 (60.0%);M00955_2.00 (61.9%);M00958_2.00 (60.7%);M00959_2.00 (59.5%);M00960_2.00 (64.7%);M01039_2.00 (50.9%);M02903_2.00 (50.0%);M02924_2.00 (60.3%);M04387_2.00 (57.1%);M04463_2.00 (50.0%);M04505_2.00 (52.3%);M04598_2.00 (53.0%);M04611_2.00 (56.1%);M04613_2.00 (56.5%);M04621_2.00 (51.5%);M04650_2.00 (59.5%);M05853_2.00 (50.9%);M06108_2.00 (55.5%);M07567_2.00 (52.2%);M07578_2.00 (54.5%);M07601_2.00 (50.0%);M07635_2.00 (52.8%);M07649_2.00 (51.0%);M07678_2.00 (57.4%);M07686_2.00 (53.4%);M07689_2.00 (57.0%);M07699_2.00 (55.6%);M07700_2.00 (52.6%);M07707_2.00 (55.7%);M08252_2.00 (50.6%);M08254_2.00 (55.3%);M08255_2.00 (55.3%);M08256_2.00 (50.7%);M08267_2.00 (51.1%);M08309_2.00 (53.6%);M08325_2.00 (55.7%);M08329_2.00 (52.7%);M08334_2.00 (52.4%);M08335_2.00 (59.1%);M08342_2.00 (51.6%);M08347_2.00 (51.9%);M08355_2.00 (50.1%);M08367_2.00 (51.9%);M08371_2.00 (51.1%);M08392_2.00 (51.5%);M08395_2.00 (50.1%);M08908_2.00 (50.0%);M08917_2.00 (56.9%);M08934_2.00 (53.6%);M08985_2.00 (54.9%);MA0039.1 (50.0%);MA0039.3 (50.0%);MA1124.1 (57.8%);MA1154.1 (50.3%);MA1515.1 (50.0%);MA1587.1 (50.9%);MA1589.1 (51.5%);MA1602.1 (51.5%)	TFS_sp_P58317_ZN121_HUMAN:141:251_5ei9_E_1.meme;DIMER_sp_P58317_ZN121_HUMAN:310:358_1llm_D_1.meme		ZNF121	More than 3 adjacent zinc finger factors{2.3.3}	ZN121_HUMAN
+P61244	add_hocomoco_to_existing_identical_pwm	MA0058.1	MA0058.1;MAX_HUMAN.H11MO.0.A					MAX	bHLH-ZIP factors{1.2.6}	MAX_HUMAN
+P61371	add_hocomoco_to_existing_identical_pwm	MA1608.1	MA1608.1;ISL1_HUMAN.H11MO.0.A					ISL1	HD-LIM factors{3.1.5}	ISL1_HUMAN
+P62508	add_hocomoco_to_existing_identical_pwm	MA0643.1	MA0643.1;ERR3_HUMAN.H11MO.0.B					ESRRG	Steroid hormone receptors (NR3){2.1.1}	ERR3_HUMAN
+P78367	add_hocomoco_to_existing_identical_pwm	MA0122.2	MA0122.2;NKX32_HUMAN.H11MO.0.C					NKX3-2	NK-related factors{3.1.2}	NKX32_HUMAN
+P78426	add_hocomoco_to_existing_identical_pwm	MA0674.1	MA0674.1;NKX61_HUMAN.H11MO.0.B					NKX6-1	NK-related factors{3.1.2}	NKX61_HUMAN
+P78545	add_hocomoco_to_existing_identical_pwm	MA0640.1	MA0640.1;ELF3_HUMAN.H11MO.0.A					ELF3	Ets-related factors{3.5.2}	ELF3_HUMAN
+P85037	add_hocomoco_to_existing_identical_pwm	MA0852.2	MA0852.2;FOXK1_HUMAN.H11MO.0.A					FOXK1	Forkhead box (FOX) factors{3.3.1}	FOXK1_HUMAN
+P98177	add_hocomoco_to_existing_identical_pwm	MA0848.1	MA0848.1;FOXO4_HUMAN.H11MO.0.C					FOXO4	Forkhead box (FOX) factors{3.3.1}	FOXO4_HUMAN
+Q00653	add_hocomoco_to_existing_identical_pwm	MA0778.1	MA0778.1;NFKB2_HUMAN.H11MO.0.B					NFKB2	NF-kappaB-related factors{6.1.1}	NFKB2_HUMAN
+Q00978	add_hocomoco_to_existing_identical_pwm	MA0653.1	MA0653.1;IRF9_HUMAN.H11MO.0.C					IRF9	Interferon-regulatory factors{3.5.3}	IRF9_HUMAN
+Q01094	add_hocomoco_to_existing_identical_pwm	MA0024.1	MA0024.1;E2F1_HUMAN.H11MO.0.A					E2F1	E2F-related factors{3.3.2}	E2F1_HUMAN
+Q01101	add_hocomoco_to_existing_identical_pwm	MA0155.1	MA0155.1;INSM1_HUMAN.H11MO.0.C					INSM1	Factors with multiple dispersed zinc fingers{2.3.4}	INSM1_HUMAN
+Q01196	add_hocomoco_to_existing_identical_pwm	MA0002.1	MA0002.1;RUNX1_HUMAN.H11MO.0.A					RUNX1	Runt-related factors{6.4.1}	RUNX1_HUMAN
+Q01201	add_hocomoco_to_existing_identical_pwm	MA1117.1	MA1117.1;RELB_HUMAN.H11MO.0.C					RELB	NF-kappaB-related factors{6.1.1}	RELB_HUMAN
+Q01543	add_hocomoco_to_existing_identical_pwm	MA0475.1	MA0475.1;FLI1_HUMAN.H11MO.0.A					FLI1	Ets-related factors{3.5.2}	FLI1_HUMAN
+Q01664	add_hocomoco_to_existing_identical_pwm	MA0691.1	MA0691.1;TFAP4_HUMAN.H11MO.0.A					TFAP4	bHLH-ZIP factors{1.2.6}	TFAP4_HUMAN
+Q01860	add_hocomoco_to_existing_identical_pwm	MA1115.1	MA1115.1;PO5F1_HUMAN.H11MO.0.A					POU5F1	POU domain factors{3.1.10}	PO5F1_HUMAN
+Q01892	add_hocomoco_to_existing_identical_pwm	MA0081.1	MA0081.1;SPIB_HUMAN.H11MO.0.A					SPIB	Ets-related factors{3.5.2}	SPIB_HUMAN
+Q02078	add_hocomoco_to_existing_identical_pwm	MA0052.1	MA0052.1;MEF2A_HUMAN.H11MO.0.A					MEF2A	Regulators of differentiation{5.1.1}	MEF2A_HUMAN
+Q02080	add_hocomoco_to_existing_identical_pwm	MA0660.1	MA0660.1;MEF2B_HUMAN.H11MO.0.A					MEF2B	Regulators of differentiation{5.1.1}	MEF2B_HUMAN
+Q02086	add_hocomoco_to_existing_identical_pwm	MA0516.1	MA0516.1;SP2_HUMAN.H11MO.0.A					SP2	Three-zinc finger Krüppel-related factors{2.3.1}	SP2_HUMAN
+Q02446	add_hocomoco_to_existing_identical_pwm	MA0685.1	MA0685.1;SP4_HUMAN.H11MO.0.A					SP4	Three-zinc finger Krüppel-related factors{2.3.1}	SP4_HUMAN
+Q02447	add_hocomoco_to_existing_identical_pwm	MA0746.1	MA0746.1;SP3_HUMAN.H11MO.0.B					SP3	Three-zinc finger Krüppel-related factors{2.3.1}	SP3_HUMAN
+Q02548	add_hocomoco_to_existing_identical_pwm	MA0014.2	MA0014.2;PAX5_HUMAN.H11MO.0.A					PAX5	Paired domain only{3.2.2}	PAX5_HUMAN
+Q02556	add_hocomoco_to_existing_identical_pwm	MA0652.1	MA0652.1;IRF8_HUMAN.H11MO.0.B					IRF8	Interferon-regulatory factors{3.5.3}	IRF8_HUMAN
+Q02575	add_hocomoco_to_existing_identical_pwm	MA0048.1	MA0048.1;HEN1_HUMAN.H11MO.0.C					NHLH1	Tal-related factors{1.2.3}	HEN1_HUMAN
+Q03052	add_hocomoco_to_existing_identical_pwm	MA0786.1	MA0786.1;PO3F1_HUMAN.H11MO.0.C					POU3F1	POU domain factors{3.1.10}	PO3F1_HUMAN
+Q03060	add_hocomoco_to_existing_identical_pwm	MA0609.2	MA0609.2;CREM_HUMAN.H11MO.0.C					CREM	CREB-related factors{1.1.7}	CREM_HUMAN
+Q03923	add_hocomoco_to_existing_identical_pwm	M08295_2.00	M08295_2.00;ZNF85_HUMAN.H11MO.0.C					ZNF85	More than 3 adjacent zinc finger factors{2.3.3}	ZNF85_HUMAN
+Q03933	add_hocomoco_to_existing_identical_pwm	MA0770.1	MA0770.1;HSF2_HUMAN.H11MO.0.A					HSF2	HSF factors{3.4.1}	HSF2_HUMAN
+Q04206	add_hocomoco_to_existing_identical_pwm	MA0107.1	MA0107.1;TF65_HUMAN.H11MO.0.A					RELA	NF-kappaB-related factors{6.1.1}	TF65_HUMAN
+Q04864	add_hocomoco_to_existing_identical_pwm	MA0101.1	MA0101.1;REL_HUMAN.H11MO.0.B					REL	NF-kappaB-related factors{6.1.1}	REL_HUMAN
+Q05066	add_hocomoco_to_existing_identical_pwm	MA0084.1	MA0084.1;SRY_HUMAN.H11MO.0.B					SRY	SOX-related factors{4.1.1}	SRY_HUMAN
+Q06330	add_hocomoco_to_existing_identical_pwm	MA1116.1	MA1116.1;SUH_HUMAN.H11MO.0.A					RBPJ	CSL-related factors{6.1.4}	SUH_HUMAN
+Q06413	add_hocomoco_to_existing_identical_pwm	MA0497.1	MA0497.1;MEF2C_HUMAN.H11MO.0.A					MEF2C	Regulators of differentiation{5.1.1}	MEF2C_HUMAN
+Q06546	add_hocomoco_to_existing_identical_pwm	MA0062.1	MA0062.1;GABPA_HUMAN.H11MO.0.A					GABPA	Ets-related factors{3.5.2}	GABPA_HUMAN
+Q06945	add_hocomoco_to_existing_identical_pwm	MA0867.1	MA0867.1;SOX4_HUMAN.H11MO.0.B					SOX4	SOX-related factors{4.1.1}	SOX4_HUMAN
+Q07869	add_hocomoco_to_existing_identical_pwm	MA1148.1	MA1148.1;PPARA_HUMAN.H11MO.0.B					PPARA	Thyroid hormone receptor-related factors (NR1){2.1.2}	PPARA_HUMAN
+Q0VGE8	add_hocomoco_to_existing_identical_pwm	M07657_2.00	M07657_2.00;ZN816_HUMAN.H11MO.0.C					ZNF816	More than 3 adjacent zinc finger factors{2.3.3}	ZN816_HUMAN
+Q10586	add_hocomoco_to_existing_identical_pwm	MA0639.1	MA0639.1;DBP_HUMAN.H11MO.0.B					DBP	C/EBP-related{1.1.8}	DBP_HUMAN
+Q12772	add_hocomoco_to_existing_identical_pwm	MA0596.1	MA0596.1;SRBP2_HUMAN.H11MO.0.B					SREBF2	bHLH-ZIP factors{1.2.6}	SRBP2_HUMAN
+Q12778	add_hocomoco_to_existing_identical_pwm	M10549_2.00	M10549_2.00;FOXO1_HUMAN.H11MO.0.A					FOXO1	Forkhead box (FOX) factors{3.3.1}	FOXO1_HUMAN
+Q12857	add_hocomoco_to_existing_identical_pwm	MA0670.1	MA0670.1;NFIA_HUMAN.H11MO.0.C					NFIA	Nuclear factor 1{7.1.2}	NFIA_HUMAN
+Q12948	add_hocomoco_to_existing_identical_pwm	MA0032.1	MA0032.1;FOXC1_HUMAN.H11MO.0.C					FOXC1	Forkhead box (FOX) factors{3.3.1}	FOXC1_HUMAN
+Q12951	add_hocomoco_to_existing_identical_pwm	MA0042.1	MA0042.1;FOXI1_HUMAN.H11MO.0.B					FOXI1	Forkhead box (FOX) factors{3.3.1}	FOXI1_HUMAN
+Q12968	add_hocomoco_to_existing_identical_pwm	MA0625.1	MA0625.1;NFAC3_HUMAN.H11MO.0.B					NFATC3	NFAT-related factors{6.1.3}	NFAC3_HUMAN
+Q13105	upgrade_to_identical_pwm		ZBT17_HUMAN.H11MO.0.A		M00939_2.00 (51.2%);M00943_2.00 (56.6%);M00944_2.00 (59.0%);M00948_2.00 (52.4%);M00950_2.00 (56.0%);M00952_2.00 (50.5%);M00953_2.00 (57.8%);M00955_2.00 (54.4%);M00958_2.00 (53.6%);M00959_2.00 (52.4%);M00960_2.00 (53.6%);M01883_2.00 (51.0%);M02913_2.00 (51.5%);M04387_2.00 (50.0%);M06039_2.00 (53.1%);M06179_2.00 (55.7%);M08256_2.00 (50.0%);M08283_2.00 (50.0%);M08325_2.00 (51.7%);MA1124.1 (55.6%);MA1602.1 (52.0%)	TFS_sp_Q13105_ZBT17_HUMAN:473:580_5ei9_E_1.meme		ZBTB17	Factors with multiple dispersed zinc fingers{2.3.4}	ZBT17_HUMAN
+Q13133	upgrade_to_identical_pwm		NR1H3_HUMAN.H11MO.0.B	MA0494.1 (91.4%)	M02392_2.00 (54.5%);M02409_2.00 (50.0%);M03426_2.00 (53.2%);M05635_2.00 (51.3%);M05669_2.00 (56.5%);M06432_2.00 (50.0%);M09275_2.00 (60.8%);M09309_2.00 (53.0%);M09609_2.00 (51.6%);MA0115.1 (69.1%);MA0504.1 (56.5%);MA1540.1 (51.3%);MA1541.1 (51.5%)			NR1H3	Thyroid hormone receptor-related factors (NR1){2.1.2}	NR1H3_HUMAN
+Q13285	add_hocomoco_to_existing_identical_pwm	MA1540.1	MA1540.1;STF1_HUMAN.H11MO.0.B					NR5A1	FTZ-F1-related receptors (NR5){2.1.5}	STF1_HUMAN
+Q13351	add_hocomoco_to_existing_identical_pwm	M00224_2.00	M00224_2.00;KLF1_HUMAN.H11MO.0.A					KLF1	Three-zinc finger Krüppel-related factors{2.3.1}	KLF1_HUMAN
+Q13422	add_hocomoco_to_existing_identical_pwm	MA1508.1	MA1508.1;IKZF1_HUMAN.H11MO.0.C					IKZF1	Factors with multiple dispersed zinc fingers{2.3.4}	IKZF1_HUMAN
+Q13469	add_hocomoco_to_existing_identical_pwm	MA0152.1	MA0152.1;NFAC2_HUMAN.H11MO.0.B					NFATC2	NFAT-related factors{6.1.3}	NFAC2_HUMAN
+Q13485	add_hocomoco_to_existing_identical_pwm	MA0513.1	MA0513.1;SMAD4_HUMAN.H11MO.0.B					SMAD4	SMAD factors{7.1.1}	SMAD4_HUMAN
+Q13516	add_hocomoco_to_existing_identical_pwm	MA0678.1	MA0678.1;OLIG2_HUMAN.H11MO.0.B					OLIG2	Tal-related factors{1.2.3}	OLIG2_HUMAN
+Q13562	add_hocomoco_to_existing_identical_pwm	MA1109.1	MA1109.1;NDF1_HUMAN.H11MO.0.A					NEUROD1	Tal-related factors{1.2.3}	NDF1_HUMAN
+Q13761	add_hocomoco_to_existing_identical_pwm	MA0684.1	MA0684.1;RUNX3_HUMAN.H11MO.0.A					RUNX3	Runt-related factors{6.4.1}	RUNX3_HUMAN
+Q13886	add_hocomoco_to_existing_identical_pwm	MA1107.1	MA1107.1;KLF9_HUMAN.H11MO.0.C					KLF9	Three-zinc finger Krüppel-related factors{2.3.1}	KLF9_HUMAN
+Q13887	add_hocomoco_to_existing_identical_pwm	MA0599.1	MA0599.1;KLF5_HUMAN.H11MO.0.A					KLF5	Three-zinc finger Krüppel-related factors{2.3.1}	KLF5_HUMAN
+Q13950	add_hocomoco_to_existing_identical_pwm	MA0511.1	MA0511.1;RUNX2_HUMAN.H11MO.0.A					RUNX2	Runt-related factors{6.4.1}	RUNX2_HUMAN
+Q13952	add_hocomoco_to_existing_identical_pwm	MA1644.1	MA1644.1;NFYC_HUMAN.H11MO.0.A					NFYC	Heteromeric CCAAT-binding factors{4.2.1}	NFYC_HUMAN
+Q14119	add_hocomoco_to_existing_identical_pwm	MA1578.1	MA1578.1;VEZF1_HUMAN.H11MO.0.C					VEZF1	Factors with multiple dispersed zinc fingers{2.3.4}	VEZF1_HUMAN
+Q14186	add_hocomoco_to_existing_identical_pwm	MA1122.1	MA1122.1;TFDP1_HUMAN.H11MO.0.C					TFDP1	E2F-related factors{3.3.2}	TFDP1_HUMAN
+Q14209	add_hocomoco_to_existing_identical_pwm	MA0864.1	MA0864.1;E2F2_HUMAN.H11MO.0.B					E2F2	E2F-related factors{3.3.2}	E2F2_HUMAN
+Q14494	add_hocomoco_to_existing_identical_pwm	MA0089.2	MA0089.2;NF2L1_HUMAN.H11MO.0.C					NFE2L1	Jun-related factors{1.1.1}	NF2L1_HUMAN
+Q14526	add_hocomoco_to_existing_identical_pwm	M04568_2.00	M04568_2.00;HIC1_HUMAN.H11MO.0.C					HIC1	Factors with multiple dispersed zinc fingers{2.3.4}	HIC1_HUMAN
+Q14541	add_hocomoco_to_existing_identical_pwm	MA0484.1	MA0484.1;HNF4G_HUMAN.H11MO.0.B					HNF4G	RXR-related receptors (NR2){2.1.3}	HNF4G_HUMAN
+Q14653	add_hocomoco_to_existing_identical_pwm	MA1418.1	MA1418.1;IRF3_HUMAN.H11MO.0.B					IRF3	Interferon-regulatory factors{3.5.3}	IRF3_HUMAN
+Q14765	add_hocomoco_to_existing_identical_pwm	M11361_2.00	M11361_2.00;STAT4_HUMAN.H11MO.0.A					STAT4	STAT factors{6.2.1}	STAT4_HUMAN
+Q14814	add_hocomoco_to_existing_identical_pwm	MA0773.1	MA0773.1;MEF2D_HUMAN.H11MO.0.A					MEF2D	Regulators of differentiation{5.1.1}	MEF2D_HUMAN
+Q14865	upgrade_to_identical_pwm		ARI5B_HUMAN.H11MO.0.C	M01661_2.00 (87.9%);M01663_2.00 (75.4%);MA0602.1 (75.4%)	M01657_2.00 (61.6%);M01668_2.00 (60.3%)			ARID5B	ARID-related factors{3.7.1}	ARI5B_HUMAN
+Q14872	add_hocomoco_to_existing_identical_pwm	MA0863.1	MA0863.1;MTF1_HUMAN.H11MO.0.C					MTF1	More than 3 adjacent zinc finger factors{2.3.3}	MTF1_HUMAN
+Q14934	add_hocomoco_to_existing_identical_pwm	MA1525.1	MA1525.1;NFAC4_HUMAN.H11MO.0.C					NFATC4	NFAT-related factors{6.1.3}	NFAC4_HUMAN
+Q14994	add_hocomoco_to_existing_identical_pwm	MA1534.1	MA1534.1;NR1I3_HUMAN.H11MO.0.C					NR1I3	Thyroid hormone receptor-related factors (NR1){2.1.2}	NR1I3_HUMAN
+Q15072	add_hocomoco_to_existing_identical_pwm	M08329_2.00	M08329_2.00;OZF_HUMAN.H11MO.0.C					ZNF146	More than 3 adjacent zinc finger factors{2.3.3}	OZF_HUMAN
+Q15329	upgrade_to_identical_pwm		E2F5_HUMAN.H11MO.0.B		M01968_2.00 (51.8%);M06871_2.00 (51.5%);MA0470.1 (52.1%)	TFS_sp_Q15329_E2F5_HUMAN:49:116_4yo2_A_1.meme;TFS_sp_Q15329_E2F5_HUMAN:88:117_1cf7_B_1.meme;TFS_sp_Q15329_E2F5_HUMAN:49:115_1cf7_A_1.meme		E2F5	E2F-related factors{3.3.2}	E2F5_HUMAN
+Q15406	add_hocomoco_to_existing_identical_pwm	MA1541.1	MA1541.1;NR6A1_HUMAN.H11MO.0.B					NR6A1	GCNF-related receptors (NR6){2.1.6}	NR6A1_HUMAN
+Q15475	add_hocomoco_to_existing_identical_pwm	MA1118.1	MA1118.1;SIX1_HUMAN.H11MO.0.A					SIX1	HD-SINE factors{3.1.6}	SIX1_HUMAN
+Q15561	add_hocomoco_to_existing_identical_pwm	MA0809.1	MA0809.1;TEAD4_HUMAN.H11MO.0.A					TEAD4	TEF-1-related factors{3.6.1}	TEAD4_HUMAN
+Q15583	add_hocomoco_to_existing_identical_pwm	MA0796.1	MA0796.1;TGIF1_HUMAN.H11MO.0.A					TGIF1	TALE-type homeo domain factors{3.1.4}	TGIF1_HUMAN
+Q15672	add_hocomoco_to_existing_identical_pwm	MA1123.1	MA1123.1;TWST1_HUMAN.H11MO.0.A					TWIST1	Tal-related factors{1.2.3}	TWST1_HUMAN
+Q15699	add_hocomoco_to_existing_identical_pwm	M10741_2.00	M10741_2.00;ALX1_HUMAN.H11MO.0.B					ALX1	Paired-related HD factors{3.1.3}	ALX1_HUMAN
+Q15723	add_hocomoco_to_existing_identical_pwm	MA1483.1	MA1483.1;ELF2_HUMAN.H11MO.0.C					ELF2	Ets-related factors{3.5.2}	ELF2_HUMAN
+Q15744	add_hocomoco_to_existing_identical_pwm	MA0837.1	MA0837.1;CEBPE_HUMAN.H11MO.0.A					CEBPE	C/EBP-related{1.1.8}	CEBPE_HUMAN
+Q15784	add_hocomoco_to_existing_identical_pwm	MA0668.1	MA0668.1;NDF2_HUMAN.H11MO.0.B					NEUROD2	Tal-related factors{1.2.3}	NDF2_HUMAN
+Q15796	add_hocomoco_to_existing_identical_pwm	MA0513.1	MA0513.1;SMAD2_HUMAN.H11MO.0.A					SMAD2	SMAD factors{7.1.1}	SMAD2_HUMAN
+Q15853	add_hocomoco_to_existing_identical_pwm	MA0526.1	MA0526.1;USF2_HUMAN.H11MO.0.A					USF2	bHLH-ZIP factors{1.2.6}	USF2_HUMAN
+Q15915	add_hocomoco_to_existing_identical_pwm	MA0696.1	MA0696.1;ZIC1_HUMAN.H11MO.0.B					ZIC1	More than 3 adjacent zinc finger factors{2.3.3}	ZIC1_HUMAN
+Q15916	add_hocomoco_to_existing_identical_pwm	MA1581.1	MA1581.1;ZBTB6_HUMAN.H11MO.0.C					ZBTB6	More than 3 adjacent zinc finger factors{2.3.3}	ZBTB6_HUMAN
+Q16236	add_hocomoco_to_existing_identical_pwm	MA0150.1	MA0150.1;NF2L2_HUMAN.H11MO.0.A					NFE2L2	Jun-related factors{1.1.1}	NF2L2_HUMAN
+Q16254	add_hocomoco_to_existing_identical_pwm	MA0470.1	MA0470.1;E2F4_HUMAN.H11MO.0.A					E2F4	E2F-related factors{3.3.2}	E2F4_HUMAN
+Q16534	add_hocomoco_to_existing_identical_pwm	MA0043.1	MA0043.1;HLF_HUMAN.H11MO.0.C					HLF	C/EBP-related{1.1.8}	HLF_HUMAN
+Q16621	add_hocomoco_to_existing_identical_pwm	MA0501.1	MA0501.1;NFE2_HUMAN.H11MO.0.A					NFE2	Jun-related factors{1.1.1}	NFE2_HUMAN
+Q16656	add_hocomoco_to_existing_identical_pwm	MA0506.1	MA0506.1;NRF1_HUMAN.H11MO.0.A					NRF1	NRF{0.0.6}	NRF1_HUMAN
+Q16665	add_hocomoco_to_existing_identical_pwm	MA0259.1	MA0259.1;HIF1A_HUMAN.H11MO.0.C					HIF1A	PAS domain factors{1.2.5}	HIF1A_HUMAN
+Q3MIS6	add_hocomoco_to_existing_identical_pwm	MA1597.1	MA1597.1;ZN528_HUMAN.H11MO.0.C					ZNF528	More than 3 adjacent zinc finger factors{2.3.3}	ZN528_HUMAN
+Q3ZCT1	add_hocomoco_to_existing_identical_pwm	M08395_2.00	M08395_2.00;ZN260_HUMAN.H11MO.0.C					ZNF260	More than 3 adjacent zinc finger factors{2.3.3}	ZN260_HUMAN
+Q53GI3	add_hocomoco_to_existing_identical_pwm	M08903_2.00	M08903_2.00;ZN394_HUMAN.H11MO.0.C					ZNF394	More than 3 adjacent zinc finger factors{2.3.3}	ZN394_HUMAN
+Q5HYK9	add_hocomoco_to_existing_identical_pwm	M08386_2.00	M08386_2.00;ZN667_HUMAN.H11MO.0.C					ZNF667	More than 3 adjacent zinc finger factors{2.3.3}	ZN667_HUMAN
+Q5VTD9	add_hocomoco_to_existing_identical_pwm	M04524_2.00	M04524_2.00;GFI1B_HUMAN.H11MO.0.A					GFI1B	More than 3 adjacent zinc finger factors{2.3.3}	GFI1B_HUMAN
+Q6IQ21	add_hocomoco_to_existing_identical_pwm	M08955_2.00	M08955_2.00;ZN770_HUMAN.H11MO.0.C					ZNF770	Factors with multiple dispersed zinc fingers{2.3.4}	ZN770_HUMAN
+Q6ISB3	add_hocomoco_to_existing_identical_pwm	MA1105.1	MA1105.1;GRHL2_HUMAN.H11MO.0.A					GRHL2	Grainyhead-related factors{6.7.1}	GRHL2_HUMAN
+Q6P9A3	add_hocomoco_to_existing_identical_pwm	M08300_2.00	M08300_2.00;ZN549_HUMAN.H11MO.0.C					ZNF549	More than 3 adjacent zinc finger factors{2.3.3}	ZN549_HUMAN
+Q6P9G9	add_hocomoco_to_existing_identical_pwm	MA1656.1	MA1656.1;ZN449_HUMAN.H11MO.0.C					ZNF449	More than 3 adjacent zinc finger factors{2.3.3}	ZN449_HUMAN
+Q6U7Q0	add_hocomoco_to_existing_identical_pwm	M08357_2.00	M08357_2.00;ZN322_HUMAN.H11MO.0.B					ZNF322	More than 3 adjacent zinc finger factors{2.3.3}	ZN322_HUMAN
+Q7RTS1	add_hocomoco_to_existing_identical_pwm	MA1472.1	MA1472.1;BHA15_HUMAN.H11MO.0.B					BHLHA15	Tal-related factors{1.2.3}	BHA15_HUMAN
+Q7RTS3	add_hocomoco_to_existing_identical_pwm	M04156_2.00	M04156_2.00;PTF1A_HUMAN.H11MO.0.B					PTF1A	Tal-related factors{1.2.3}	PTF1A_HUMAN
+Q7Z7K2	add_hocomoco_to_existing_identical_pwm	M08358_2.00	M08358_2.00;ZN467_HUMAN.H11MO.0.C					ZNF467	Factors with multiple dispersed zinc fingers{2.3.4}	ZN467_HUMAN
+Q86T24	add_hocomoco_to_existing_identical_pwm	MA0527.1	MA0527.1;KAISO_HUMAN.H11MO.0.A					ZBTB33	Other factors with up to three adjacent zinc fingers{2.3.2}	KAISO_HUMAN
+Q86TJ5	add_hocomoco_to_existing_identical_pwm	M08917_2.00	M08917_2.00;ZN554_HUMAN.H11MO.0.C					ZNF554	More than 3 adjacent zinc finger factors{2.3.3}	ZN554_HUMAN
+Q86UD4	upgrade_to_identical_pwm		ZN329_HUMAN.H11MO.0.C		M00142_2.00 (53.0%);M00217_2.00 (50.6%);M00224_2.00 (51.3%);M00609_2.00 (55.9%);M00765_2.00 (52.5%);M00779_2.00 (50.0%);M00782_2.00 (59.6%);M00786_2.00 (53.0%);M00939_2.00 (69.7%);M00943_2.00 (62.3%);M00944_2.00 (65.8%);M00945_2.00 (56.3%);M00948_2.00 (63.5%);M00950_2.00 (65.8%);M00952_2.00 (64.7%);M00953_2.00 (67.0%);M00955_2.00 (61.1%);M00958_2.00 (65.1%);M00959_2.00 (64.7%);M00960_2.00 (67.4%);M02924_2.00 (60.8%);M03671_2.00 (51.6%);M04387_2.00 (57.6%);M04463_2.00 (51.3%);M04465_2.00 (55.7%);M04505_2.00 (52.7%);M04536_2.00 (52.5%);M04598_2.00 (59.1%);M04611_2.00 (56.8%);M04613_2.00 (56.8%);M04621_2.00 (59.0%);M04650_2.00 (59.5%);M04653_2.00 (65.6%);M05853_2.00 (55.7%);M05859_2.00 (52.5%);M07562_2.00 (54.6%);M07566_2.00 (55.8%);M07567_2.00 (53.5%);M07578_2.00 (58.0%);M07581_2.00 (52.2%);M07582_2.00 (53.8%);M07587_2.00 (57.6%);M07590_2.00 (52.6%);M07593_2.00 (58.0%);M07598_2.00 (51.9%);M07601_2.00 (52.3%);M07605_2.00 (51.2%);M07607_2.00 (50.5%);M07610_2.00 (55.7%);M07635_2.00 (53.1%);M07645_2.00 (52.8%);M07646_2.00 (57.8%);M07648_2.00 (55.3%);M07649_2.00 (57.5%);M07660_2.00 (51.0%);M07667_2.00 (51.8%);M07678_2.00 (57.2%);M07683_2.00 (53.3%);M07684_2.00 (51.5%);M07686_2.00 (53.4%);M07689_2.00 (58.3%);M07691_2.00 (53.8%);M07699_2.00 (54.5%);M07700_2.00 (61.4%);M07706_2.00 (52.7%);M07707_2.00 (53.5%);M07712_2.00 (51.3%);M07723_2.00 (50.0%);M07727_2.00 (50.2%);M07746_2.00 (53.1%);M07753_2.00 (56.3%);M07764_2.00 (51.6%);M07777_2.00 (51.5%);M08252_2.00 (50.9%);M08254_2.00 (58.2%);M08255_2.00 (56.8%);M08256_2.00 (55.2%);M08267_2.00 (59.3%);M08274_2.00 (56.3%);M08279_2.00 (51.2%);M08283_2.00 (52.6%);M08291_2.00 (50.7%);M08292_2.00 (53.2%);M08309_2.00 (56.8%);M08311_2.00 (53.9%);M08325_2.00 (58.0%);M08329_2.00 (56.8%);M08334_2.00 (57.4%);M08335_2.00 (53.8%);M08347_2.00 (58.3%);M08355_2.00 (58.5%);M08366_2.00 (51.7%);M08371_2.00 (53.4%);M08373_2.00 (55.6%);M08375_2.00 (61.7%);M08392_2.00 (54.2%);M08395_2.00 (51.4%);M08860_2.00 (54.5%);M08867_2.00 (50.0%);M08901_2.00 (54.2%);M08908_2.00 (51.2%);M08917_2.00 (53.0%);M08934_2.00 (51.5%);M08944_2.00 (55.8%);M08985_2.00 (62.6%);M09008_2.00 (51.3%);MA0039.1 (51.3%);MA0039.3 (51.3%);MA0079.1 (52.5%);MA0493.1 (50.0%);MA0528.1 (51.4%);MA0685.1 (52.5%);MA0746.1 (50.0%);MA0747.1 (52.5%);MA1124.1 (59.8%);MA1154.1 (53.9%);MA1515.1 (51.3%);MA1564.1 (51.2%);MA1587.1 (50.4%);MA1589.1 (59.0%);MA1596.1 (50.2%);MA1601.1 (53.3%);MA1602.1 (56.3%);MA1656.1 (54.7%)	TFS_sp_Q86UD4_ZN329_HUMAN:284:394_5ei9_E_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:203:478_5v3j_E_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:240:393_2i13_A_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:107:199_5wjq_D_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:107:199_5v3m_C_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:203:478_5v3m_C_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:200:478_5wjq_D_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:107:195_2i13_A_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:107:199_5v3j_E_1.meme;TFS_sp_Q86UD4_ZN329_HUMAN:125:199_5eh2_F_1.meme;DIMER_sp_Q86UD4_ZN329_HUMAN:369:420_1llm_D_1.meme		ZNF329	More than 3 adjacent zinc finger factors{2.3.3}	ZN329_HUMAN
+Q8IVP9	add_hocomoco_to_existing_identical_pwm	M07600_2.00	M07600_2.00;ZN547_HUMAN.H11MO.0.C					ZNF547	More than 3 adjacent zinc finger factors{2.3.3}	ZN547_HUMAN
+Q8N141	add_hocomoco_to_existing_identical_pwm	M05853_2.00	M05853_2.00;ZFP82_HUMAN.H11MO.0.C					ZFP82	More than 3 adjacent zinc finger factors{2.3.3}	ZFP82_HUMAN
+Q8NEM1	add_hocomoco_to_existing_identical_pwm	M08921_2.00	M08921_2.00;ZN680_HUMAN.H11MO.0.C					ZNF680	More than 3 adjacent zinc finger factors{2.3.3}	ZN680_HUMAN
+Q8NHY6	add_hocomoco_to_existing_identical_pwm	M08949_2.00	M08949_2.00;ZFP28_HUMAN.H11MO.0.C					ZFP28	More than 3 adjacent zinc finger factors{2.3.3}	ZFP28_HUMAN
+Q8NI51	add_hocomoco_to_existing_identical_pwm	MA1102.1	MA1102.1;CTCFL_HUMAN.H11MO.0.A					CTCFL	More than 3 adjacent zinc finger factors{2.3.3}	CTCFL_HUMAN
+Q8TA94	upgrade_to_identical_pwm		ZN563_HUMAN.H11MO.0.C	M07659_2.00 (70.9%);M07731_2.00 (73.3%);M07733_2.00 (81.5%)	M00022_2.00 (50.0%);M00609_2.00 (50.4%);M00939_2.00 (57.5%);M00943_2.00 (56.6%);M00944_2.00 (55.2%);M00945_2.00 (59.7%);M00948_2.00 (55.4%);M00950_2.00 (52.9%);M00952_2.00 (57.8%);M00953_2.00 (54.1%);M00955_2.00 (50.5%);M00958_2.00 (55.4%);M00959_2.00 (52.9%);M00960_2.00 (57.8%);M01474_2.00 (52.9%);M02924_2.00 (53.9%);M04387_2.00 (52.3%);M04598_2.00 (50.4%);M04613_2.00 (50.3%);M04650_2.00 (52.6%);M04653_2.00 (51.4%);M07627_2.00 (53.9%);M07628_2.00 (53.7%);M07707_2.00 (50.3%);M07717_2.00 (58.3%);M07762_2.00 (52.3%);M07770_2.00 (53.3%);M08325_2.00 (50.7%);M08366_2.00 (51.0%);M08367_2.00 (50.2%);M08908_2.00 (55.5%);M08917_2.00 (50.6%);MA1124.1 (55.0%);MA1588.1 (55.9%);MA1602.1 (50.7%)			ZNF563	More than 3 adjacent zinc finger factors{2.3.3}	ZN563_HUMAN
+Q8TBZ5	add_hocomoco_to_existing_identical_pwm	M08375_2.00	M08375_2.00;ZN502_HUMAN.H11MO.0.C					ZNF502	More than 3 adjacent zinc finger factors{2.3.3}	ZN502_HUMAN
+Q8TF45	add_hocomoco_to_existing_identical_pwm	M07712_2.00	M07712_2.00;ZN418_HUMAN.H11MO.0.C					ZNF418	Factors with multiple dispersed zinc fingers{2.3.4}	ZN418_HUMAN
+Q8TF68	add_hocomoco_to_existing_identical_pwm	MA1125.1	MA1125.1;ZN384_HUMAN.H11MO.0.C					ZNF384	More than 3 adjacent zinc finger factors{2.3.3}	ZN384_HUMAN
+Q92481	add_hocomoco_to_existing_identical_pwm	MA0811.1	MA0811.1;AP2B_HUMAN.H11MO.0.B					TFAP2B	AP-2{1.3.1}	AP2B_HUMAN
+Q92731	add_hocomoco_to_existing_identical_pwm	MA0258.1	MA0258.1;ESR2_HUMAN.H11MO.0.A					ESR2	Steroid hormone receptors (NR3){2.1.1}	ESR2_HUMAN
+Q92754	add_hocomoco_to_existing_identical_pwm	MA0524.1	MA0524.1;AP2C_HUMAN.H11MO.0.A					TFAP2C	AP-2{1.3.1}	AP2C_HUMAN
+Q92826	add_hocomoco_to_existing_identical_pwm	MA0901.1	MA0901.1;HXB13_HUMAN.H11MO.0.A					HOXB13	HOX-related factors{3.1.1}	HXB13_HUMAN
+Q92858	add_hocomoco_to_existing_identical_pwm	MA1467.1	MA1467.1;ATOH1_HUMAN.H11MO.0.B					ATOH1	Tal-related factors{1.2.3}	ATOH1_HUMAN
+Q92908	add_hocomoco_to_existing_identical_pwm	MA1104.1	MA1104.1;GATA6_HUMAN.H11MO.0.A					GATA6	GATA-type zinc fingers{2.2.1}	GATA6_HUMAN
+Q92985	add_hocomoco_to_existing_identical_pwm	MA0772.1	MA0772.1;IRF7_HUMAN.H11MO.0.C					IRF7	Interferon-regulatory factors{3.5.3}	IRF7_HUMAN
+Q96AV8	add_hocomoco_to_existing_identical_pwm	MA0758.1	MA0758.1;E2F7_HUMAN.H11MO.0.B					E2F7	E2F-related factors{3.3.2}	E2F7_HUMAN
+Q96EK4	add_hocomoco_to_existing_identical_pwm	MA1573.1	MA1573.1;THA11_HUMAN.H11MO.0.B					THAP11	THAP-related factors{2.9.1}	THA11_HUMAN
+Q96GC6	add_hocomoco_to_existing_identical_pwm	MA1592.1	MA1592.1;ZN274_HUMAN.H11MO.0.A					ZNF274	More than 3 adjacent zinc finger factors{2.3.3}	ZN274_HUMAN
+Q96LW9	add_hocomoco_to_existing_identical_pwm	M04650_2.00	M04650_2.00;ZSC31_HUMAN.H11MO.0.C					ZSCAN31	More than 3 adjacent zinc finger factors{2.3.3}	ZSC31_HUMAN
+Q96MM3	add_hocomoco_to_existing_identical_pwm	MA1651.1	MA1651.1;ZFP42_HUMAN.H11MO.0.A					ZFP42	More than 3 adjacent zinc finger factors{2.3.3}	ZFP42_HUMAN
+Q96NG8	add_hocomoco_to_existing_identical_pwm	M08274_2.00	M08274_2.00;ZN582_HUMAN.H11MO.0.C					ZNF582	More than 3 adjacent zinc finger factors{2.3.3}	ZN582_HUMAN
+Q96PE6	add_hocomoco_to_existing_identical_pwm	M08312_2.00	M08312_2.00;ZIM3_HUMAN.H11MO.0.C					ZIM3	More than 3 adjacent zinc finger factors{2.3.3}	ZIM3_HUMAN
+Q96PQ6	add_hocomoco_to_existing_identical_pwm	MA1593.1	MA1593.1;ZN317_HUMAN.H11MO.0.C					ZNF317	More than 3 adjacent zinc finger factors{2.3.3}	ZN317_HUMAN
+Q96RI1	add_hocomoco_to_existing_identical_pwm	MA1110.1	MA1110.1;NR1H4_HUMAN.H11MO.0.B					NR1H4	Thyroid hormone receptor-related factors (NR1){2.1.2}	NR1H4_HUMAN
+Q96SR6	add_hocomoco_to_existing_identical_pwm	MA1594.1	MA1594.1;ZN382_HUMAN.H11MO.0.C					ZNF382	Factors with multiple dispersed zinc fingers{2.3.4}	ZN382_HUMAN
+Q99081	add_hocomoco_to_existing_identical_pwm	MA1648.1	MA1648.1;HTF4_HUMAN.H11MO.0.A					TCF12	E2A-related factors{1.2.1}	HTF4_HUMAN
+Q99581	add_hocomoco_to_existing_identical_pwm	MA0156.1	MA0156.1;FEV_HUMAN.H11MO.0.B					FEV	Ets-related factors{3.5.2}	FEV_HUMAN
+Q99592	add_hocomoco_to_existing_identical_pwm	MA0698.1	MA0698.1;ZBT18_HUMAN.H11MO.0.C					ZBTB18	More than 3 adjacent zinc finger factors{2.3.3}	ZBT18_HUMAN
+Q99612	add_hocomoco_to_existing_identical_pwm	MA1517.1	MA1517.1;KLF6_HUMAN.H11MO.0.A					KLF6	Three-zinc finger Krüppel-related factors{2.3.1}	KLF6_HUMAN
+Q99626	add_hocomoco_to_existing_identical_pwm	MA0465.1	MA0465.1;CDX2_HUMAN.H11MO.0.A					CDX2	HOX-related factors{3.1.1}	CDX2_HUMAN
+Q99684	add_hocomoco_to_existing_identical_pwm	MA0038.2	MA0038.2;GFI1_HUMAN.H11MO.0.C					GFI1	More than 3 adjacent zinc finger factors{2.3.3}	GFI1_HUMAN
+Q99811	add_hocomoco_to_existing_identical_pwm	MA0075.3	MA0075.3;PRRX2_HUMAN.H11MO.0.C					PRRX2	Paired-related HD factors{3.1.3}	PRRX2_HUMAN
+Q99814	add_hocomoco_to_existing_identical_pwm	M09455_2.00	M09455_2.00;EPAS1_HUMAN.H11MO.0.B					EPAS1	PAS domain factors{1.2.5}	EPAS1_HUMAN
+Q9BYN7	add_hocomoco_to_existing_identical_pwm	MA1655.1	MA1655.1;ZN341_HUMAN.H11MO.0.C					ZNF341	Factors with multiple dispersed zinc fingers{2.3.4}	ZN341_HUMAN
+Q9BYV9	add_hocomoco_to_existing_identical_pwm	MA1101.1	MA1101.1;BACH2_HUMAN.H11MO.0.A					BACH2	Jun-related factors{1.1.1}	BACH2_HUMAN
+Q9C009	add_hocomoco_to_existing_identical_pwm	M09093_2.00	M09093_2.00;FOXQ1_HUMAN.H11MO.0.C					FOXQ1	Forkhead box (FOX) factors{3.3.1}	FOXQ1_HUMAN
+Q9C0F3	add_hocomoco_to_existing_identical_pwm	M08887_2.00	M08887_2.00;ZN436_HUMAN.H11MO.0.C					ZNF436	More than 3 adjacent zinc finger factors{2.3.3}	ZN436_HUMAN
+Q9GZX5	upgrade_to_identical_pwm		ZN350_HUMAN.H11MO.0.C		M00609_2.00 (51.4%);M00645_2.00 (50.0%);M00782_2.00 (58.9%);M00786_2.00 (50.8%);M00939_2.00 (55.9%);M00943_2.00 (63.5%);M00944_2.00 (65.8%);M00945_2.00 (52.8%);M00948_2.00 (63.5%);M00950_2.00 (63.5%);M00952_2.00 (64.7%);M00953_2.00 (67.0%);M00955_2.00 (58.8%);M00958_2.00 (64.7%);M00959_2.00 (63.5%);M00960_2.00 (61.9%);M02924_2.00 (58.4%);M04387_2.00 (54.0%);M04465_2.00 (50.3%);M04536_2.00 (51.0%);M04590_2.00 (51.5%);M04598_2.00 (58.7%);M04611_2.00 (50.0%);M04613_2.00 (54.3%);M04621_2.00 (55.6%);M04650_2.00 (57.6%);M04653_2.00 (62.5%);M05844_2.00 (50.0%);M07578_2.00 (52.7%);M07581_2.00 (59.2%);M07587_2.00 (50.3%);M07588_2.00 (53.6%);M07593_2.00 (51.0%);M07610_2.00 (57.9%);M07646_2.00 (56.0%);M07648_2.00 (51.3%);M07657_2.00 (51.3%);M07660_2.00 (54.5%);M07678_2.00 (56.2%);M07683_2.00 (52.0%);M07725_2.00 (59.8%);M07746_2.00 (50.5%);M07754_2.00 (53.5%);M07777_2.00 (54.9%);M08247_2.00 (60.6%);M08254_2.00 (51.2%);M08267_2.00 (57.8%);M08314_2.00 (51.5%);M08325_2.00 (57.7%);M08329_2.00 (57.2%);M08334_2.00 (57.5%);M08355_2.00 (59.2%);M08357_2.00 (52.4%);M08373_2.00 (55.5%);M08375_2.00 (55.4%);M08392_2.00 (58.9%);M08395_2.00 (59.2%);M08908_2.00 (51.2%);M08949_2.00 (57.5%);M08985_2.00 (55.4%);MA0056.1 (50.6%);MA1124.1 (59.6%);MA1154.1 (50.6%);MA1601.1 (52.0%);MA1602.1 (53.2%)	TFS_sp_Q9GZX5_ZN350_HUMAN:196:425_5v3j_E_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:243:396_2i13_A_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:261:369_5eh2_F_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:196:425_5v3m_C_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:196:428_5wjq_D_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:259:369_5egb_A_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:317:427_6e93_A_1.meme;TFS_sp_Q9GZX5_ZN350_HUMAN:259:369_5ei9_E_1.meme;DIMER_sp_Q9GZX5_ZN350_HUMAN:232:281_1llm_D_1.meme		ZNF350	More than 3 adjacent zinc finger factors{2.3.3}	ZN350_HUMAN
+Q9H165	add_hocomoco_to_existing_identical_pwm	M08881_2.00	M08881_2.00;BC11A_HUMAN.H11MO.0.A					BCL11A	Factors with multiple dispersed zinc fingers{2.3.4}	BC11A_HUMAN
+Q9H334	add_hocomoco_to_existing_identical_pwm	MA0481.1	MA0481.1;FOXP1_HUMAN.H11MO.0.A					FOXP1	Forkhead box (FOX) factors{3.3.1}	FOXP1_HUMAN
+Q9H3D4	add_hocomoco_to_existing_identical_pwm	MA0525.1	MA0525.1;P63_HUMAN.H11MO.0.A					TP63	p53-related factors{6.3.1}	P63_HUMAN
+Q9H4Z2	upgrade_to_identical_pwm		ZN335_HUMAN.H11MO.0.A		M01199_2.00 (53.8%);M01849_2.00 (54.1%);M06135_2.00 (50.0%)	TFS_sp_Q9H4Z2_ZN335_HUMAN:496:698_5v3j_E_1.meme;TFS_sp_Q9H4Z2_ZN335_HUMAN:463:698_5wjq_D_1.meme;TFS_sp_Q9H4Z2_ZN335_HUMAN:463:705_8ssu_A_1.meme;TFS_sp_Q9H4Z2_ZN335_HUMAN:496:698_5v3m_C_1.meme		ZNF335	Factors with multiple dispersed zinc fingers{2.3.4}	ZN335_HUMAN
+Q9H5H4	upgrade_to_identical_pwm		ZN768_HUMAN.H11MO.0.C	M00960_2.00 (71.0%)	M00022_2.00 (51.7%);M00134_2.00 (51.5%);M00609_2.00 (56.3%);M00619_2.00 (51.7%);M00765_2.00 (50.0%);M00782_2.00 (52.6%);M00786_2.00 (56.6%);M00939_2.00 (61.4%);M00943_2.00 (65.8%);M00944_2.00 (67.4%);M00945_2.00 (54.1%);M00948_2.00 (68.6%);M00950_2.00 (67.4%);M00952_2.00 (68.6%);M00953_2.00 (65.0%);M00955_2.00 (60.2%);M00958_2.00 (67.4%);M00959_2.00 (67.4%);M01181_2.00 (51.2%);M01432_2.00 (54.0%);M01456_2.00 (52.1%);M01457_2.00 (52.7%);M01474_2.00 (52.9%);M02924_2.00 (54.8%);M03671_2.00 (51.6%);M03682_2.00 (50.0%);M03686_2.00 (53.5%);M03702_2.00 (50.6%);M04387_2.00 (59.0%);M04465_2.00 (53.9%);M04505_2.00 (52.7%);M04524_2.00 (51.7%);M04590_2.00 (51.2%);M04598_2.00 (58.7%);M04613_2.00 (54.7%);M04621_2.00 (51.2%);M04650_2.00 (55.8%);M04653_2.00 (57.8%);M05859_2.00 (53.1%);M06039_2.00 (62.0%);M06051_2.00 (55.5%);M06053_2.00 (53.3%);M06108_2.00 (50.0%);M07566_2.00 (52.7%);M07578_2.00 (50.2%);M07579_2.00 (55.8%);M07581_2.00 (53.0%);M07587_2.00 (53.7%);M07588_2.00 (53.4%);M07590_2.00 (53.7%);M07593_2.00 (56.6%);M07598_2.00 (54.4%);M07600_2.00 (50.1%);M07605_2.00 (55.1%);M07610_2.00 (51.6%);M07635_2.00 (54.1%);M07645_2.00 (51.3%);M07658_2.00 (60.0%);M07660_2.00 (53.0%);M07683_2.00 (51.6%);M07684_2.00 (53.4%);M07689_2.00 (55.3%);M07691_2.00 (63.3%);M07700_2.00 (55.1%);M07712_2.00 (55.4%);M07714_2.00 (51.9%);M07746_2.00 (52.1%);M07761_2.00 (51.9%);M07777_2.00 (54.9%);M08247_2.00 (50.7%);M08252_2.00 (53.8%);M08255_2.00 (54.2%);M08256_2.00 (50.1%);M08267_2.00 (54.8%);M08279_2.00 (51.9%);M08291_2.00 (50.1%);M08295_2.00 (51.8%);M08311_2.00 (51.7%);M08325_2.00 (57.0%);M08329_2.00 (50.8%);M08334_2.00 (53.7%);M08335_2.00 (51.9%);M08342_2.00 (52.3%);M08355_2.00 (54.1%);M08371_2.00 (53.0%);M08373_2.00 (58.3%);M08375_2.00 (54.8%);M08392_2.00 (50.5%);M08395_2.00 (51.6%);M08889_2.00 (53.5%);M08901_2.00 (56.8%);M08903_2.00 (56.4%);M08917_2.00 (55.8%);M08934_2.00 (52.6%);M08944_2.00 (51.7%);M08985_2.00 (50.0%);MA0038.1 (51.7%);MA0038.2 (51.7%);MA0079.1 (50.0%);MA0685.1 (53.1%);MA0740.1 (51.3%);MA0747.1 (50.0%);MA1124.1 (60.1%);MA1564.1 (50.0%);MA1587.1 (55.9%);MA1589.1 (51.2%);MA1594.1 (50.7%);MA1601.1 (51.6%)			ZNF768	More than 3 adjacent zinc finger factors{2.3.3}	ZN768_HUMAN
+Q9H6I2	upgrade_to_identical_pwm		SOX17_HUMAN.H11MO.0.C	M03533_2.00 (82.1%);M03974_2.00 (72.8%);MA0078.1 (83.8%)	M00197_2.00 (66.6%);M00212_2.00 (57.3%);M02488_2.00 (53.9%);M03508_2.00 (61.8%);M03537_2.00 (64.2%);M03538_2.00 (52.9%);M03979_2.00 (61.3%);M03981_2.00 (57.5%);M03983_2.00 (61.5%);M05769_2.00 (52.9%);M05892_2.00 (55.5%);M09404_2.00 (56.7%);M09408_2.00 (59.2%);M09410_2.00 (61.3%);M09694_2.00 (58.9%);M11309_2.00 (56.7%);MA0077.1 (67.8%);MA0084.1 (53.8%);MA0087.1 (56.7%);MA0142.1 (60.5%);MA0143.4 (50.4%);MA0442.1 (64.2%);MA0514.1 (52.9%);MA0515.1 (55.5%);MA0867.1 (61.3%);MA0868.1 (65.5%);MA0869.1 (64.0%);MA1152.1 (61.8%);MA1561.1 (61.3%);MA1562.1 (62.6%)			SOX17	SOX-related factors{4.1.1}	SOX17_HUMAN
+Q9H9S0	add_hocomoco_to_existing_identical_pwm	M09139_2.00	M09139_2.00;NANOG_HUMAN.H11MO.0.A					NANOG	NK-related factors{3.1.2}	NANOG_HUMAN
+Q9HBE1	add_hocomoco_to_existing_identical_pwm	M08864_2.00	M08864_2.00;PATZ1_HUMAN.H11MO.0.C					PATZ1	Factors with multiple dispersed zinc fingers{2.3.4}	PATZ1_HUMAN
+Q9HCS4	add_hocomoco_to_existing_identical_pwm	MA1421.1	MA1421.1;TF7L1_HUMAN.H11MO.0.B					TCF7L1	TCF-7-related factors{4.1.3}	TF7L1_HUMAN
+Q9NPC8	add_hocomoco_to_existing_identical_pwm	MA1119.1	MA1119.1;SIX2_HUMAN.H11MO.0.A					SIX2	HD-SINE factors{3.1.6}	SIX2_HUMAN
+Q9NQB0	add_hocomoco_to_existing_identical_pwm	MA0523.1	MA0523.1;TF7L2_HUMAN.H11MO.0.A					TCF7L2	TCF-7-related factors{4.1.3}	TF7L2_HUMAN
+Q9NQX6	add_hocomoco_to_existing_identical_pwm	M08309_2.00	M08309_2.00;ZN331_HUMAN.H11MO.0.C					ZNF331	More than 3 adjacent zinc finger factors{2.3.3}	ZN331_HUMAN
+Q9NR55	add_hocomoco_to_existing_identical_pwm	MA0835.2	MA0835.2;BATF3_HUMAN.H11MO.0.B					BATF3	B-ATF-related factors{1.1.4}	BATF3_HUMAN
+Q9NVV9	add_hocomoco_to_existing_identical_pwm	MA0597.1	MA0597.1;THAP1_HUMAN.H11MO.0.C					THAP1	THAP-related factors{2.9.1}	THAP1_HUMAN
+Q9NXT0	add_hocomoco_to_existing_identical_pwm	M08859_2.00	M08859_2.00;ZN586_HUMAN.H11MO.0.C					ZNF586	More than 3 adjacent zinc finger factors{2.3.3}	ZN586_HUMAN
+Q9NZC4	add_hocomoco_to_existing_identical_pwm	MA0598.1	MA0598.1;EHF_HUMAN.H11MO.0.B					EHF	Ets-related factors{3.5.2}	EHF_HUMAN
+Q9P0K8	add_hocomoco_to_existing_identical_pwm	M10528_2.00	M10528_2.00;FOXJ2_HUMAN.H11MO.0.C					FOXJ2	Forkhead box (FOX) factors{3.3.1}	FOXJ2_HUMAN
+Q9UBB5	upgrade_to_identical_pwm		MBD2_HUMAN.H11MO.0.B		M09257_2.00 (50.0%)	TFS_sp_Q9UBB5_MBD2_HUMAN:151:216_6ogj_A_1.meme;TFS_sp_Q9UBB5_MBD2_HUMAN:147:204_6c1y_A_1.meme;TFS_sp_Q9UBB5_MBD2_HUMAN:145:204_6ogk_A_1.meme;TFS_sp_Q9UBB5_MBD2_HUMAN:147:204_3c2i_A_1.meme;TFS_sp_Q9UBB5_MBD2_HUMAN:145:216_6ogj_B_1.meme		MBD2		MBD2_HUMAN
+Q9UBC0	add_hocomoco_to_existing_identical_pwm	MA0679.1	MA0679.1;HNF6_HUMAN.H11MO.0.B					ONECUT1	HD-CUT factors{3.1.9}	HNF6_HUMAN
+Q9UBR4	add_hocomoco_to_existing_identical_pwm	M09137_2.00	M09137_2.00;LHX3_HUMAN.H11MO.0.C					LHX3	HD-LIM factors{3.1.5}	LHX3_HUMAN
+Q9UBX2	add_hocomoco_to_existing_identical_pwm	MA0468.1	MA0468.1;DUX4_HUMAN.H11MO.0.A					DUX4	Paired-related HD factors{3.1.3}	DUX4_HUMAN
+Q9UH73	add_hocomoco_to_existing_identical_pwm	MA0154.1	MA0154.1;COE1_HUMAN.H11MO.0.A					EBF1	Early B-Cell Factor-related factors{6.1.5}	COE1_HUMAN
+Q9UIH9	add_hocomoco_to_existing_identical_pwm	MA1513.1	MA1513.1;KLF15_HUMAN.H11MO.0.A					KLF15	Three-zinc finger Krüppel-related factors{2.3.1}	KLF15_HUMAN
+Q9UJQ4	upgrade_to_identical_pwm		SALL4_HUMAN.H11MO.0.B	M08979_2.00 (97.1%)	M00953_2.00 (56.6%);M01042_2.00 (52.3%);M01447_2.00 (50.0%);M01456_2.00 (54.3%);M01883_2.00 (52.3%);M03690_2.00 (57.1%);M03691_2.00 (50.0%);M06087_2.00 (50.0%);M07610_2.00 (52.8%);M07674_2.00 (51.0%);M07731_2.00 (58.8%);M08247_2.00 (54.7%);M08334_2.00 (57.1%);M08366_2.00 (54.7%);M08397_2.00 (53.7%);M09002_2.00 (59.1%);MA0743.1 (53.7%);MA0744.1 (53.7%);MA1124.1 (50.9%);MA1594.1 (54.7%)			SALL4	Factors with multiple dispersed zinc fingers{2.3.4}	SALL4_HUMAN
+Q9UKW6	add_hocomoco_to_existing_identical_pwm	MA0136.1	MA0136.1;ELF5_HUMAN.H11MO.0.A					ELF5	Ets-related factors{3.5.2}	ELF5_HUMAN
+Q9UL59	add_hocomoco_to_existing_identical_pwm	M08314_2.00	M08314_2.00;ZN214_HUMAN.H11MO.0.C					ZNF214	More than 3 adjacent zinc finger factors{2.3.3}	ZN214_HUMAN
+Q9ULM2	add_hocomoco_to_existing_identical_pwm	M08366_2.00	M08366_2.00;ZN490_HUMAN.H11MO.0.C					ZNF490	More than 3 adjacent zinc finger factors{2.3.3}	ZN490_HUMAN
+Q9ULX9	add_hocomoco_to_existing_identical_pwm	MA0495.1	MA0495.1;MAFF_HUMAN.H11MO.0.B					MAFF	Maf-related factors{1.1.3}	MAFF_HUMAN
+Q9UPW0	add_hocomoco_to_existing_identical_pwm	M03046_2.00	M03046_2.00;FOXJ3_HUMAN.H11MO.0.A					FOXJ3	Forkhead box (FOX) factors{3.3.1}	FOXJ3_HUMAN
+Q9Y261	add_hocomoco_to_existing_identical_pwm	MA0047.3	MA0047.3;FOXA2_HUMAN.H11MO.0.A					FOXA2	Forkhead box (FOX) factors{3.3.1}	FOXA2_HUMAN
+Q9Y2Q1	upgrade_to_identical_pwm		ZN257_HUMAN.H11MO.0.C	M00955_2.00 (78.8%);M07714_2.00 (70.1%);M07715_2.00 (71.4%);M08295_2.00 (70.9%);M08381_2.00 (71.8%);M08921_2.00 (70.8%);M08934_2.00 (70.5%)	M00143_2.00 (50.0%);M00217_2.00 (50.3%);M00224_2.00 (50.0%);M00782_2.00 (55.4%);M00939_2.00 (62.3%);M00943_2.00 (61.1%);M00944_2.00 (62.3%);M00945_2.00 (58.6%);M00948_2.00 (62.3%);M00950_2.00 (64.7%);M00952_2.00 (61.1%);M00953_2.00 (62.3%);M00958_2.00 (61.1%);M00959_2.00 (64.7%);M00960_2.00 (64.7%);M01181_2.00 (51.6%);M01474_2.00 (51.0%);M02924_2.00 (63.5%);M04387_2.00 (52.7%);M04505_2.00 (50.9%);M04598_2.00 (54.7%);M04610_2.00 (57.3%);M04611_2.00 (56.8%);M04613_2.00 (52.7%);M04621_2.00 (50.9%);M04650_2.00 (51.4%);M04653_2.00 (58.7%);M05844_2.00 (50.6%);M05847_2.00 (54.4%);M07562_2.00 (50.7%);M07565_2.00 (65.2%);M07578_2.00 (53.9%);M07581_2.00 (51.1%);M07586_2.00 (58.6%);M07587_2.00 (52.1%);M07605_2.00 (54.2%);M07613_2.00 (62.8%);M07660_2.00 (51.5%);M07683_2.00 (53.1%);M07687_2.00 (68.0%);M07727_2.00 (54.3%);M07753_2.00 (57.9%);M07761_2.00 (66.3%);M07767_2.00 (57.2%);M07775_2.00 (63.8%);M08245_2.00 (52.9%);M08314_2.00 (50.0%);M08325_2.00 (60.1%);M08329_2.00 (54.1%);M08334_2.00 (52.6%);M08335_2.00 (50.3%);M08355_2.00 (53.5%);M08375_2.00 (59.8%);M08395_2.00 (50.8%);M08901_2.00 (51.4%);M08985_2.00 (50.8%);M09515_2.00 (51.1%);MA0472.1 (51.1%);MA0472.2 (51.1%);MA0599.1 (51.2%);MA0753.1 (50.0%);MA1124.1 (58.4%);MA1516.1 (51.2%);MA1599.1 (59.5%);MA1601.1 (53.1%)			ZNF257	More than 3 adjacent zinc finger factors{2.3.3}	ZN257_HUMAN
+Q9Y2X9	upgrade_to_identical_pwm		ZN281_HUMAN.H11MO.0.A	M04509_2.00 (95.9%);MA1630.1 (94.6%)	M00143_2.00 (55.9%);M02057_2.00 (60.0%);M06053_2.00 (50.0%);M07757_2.00 (54.1%);MA0753.1 (54.1%)			ZNF281	More than 3 adjacent zinc finger factors{2.3.3}	ZN281_HUMAN
+Q9Y4X4	add_hocomoco_to_existing_identical_pwm	M04430_2.00	M04430_2.00;KLF12_HUMAN.H11MO.0.C					KLF12	Three-zinc finger Krüppel-related factors{2.3.1}	KLF12_HUMAN
+Q9Y5Q3	add_hocomoco_to_existing_identical_pwm	M08811_2.00	M08811_2.00;MAFB_HUMAN.H11MO.0.B					MAFB	Maf-related factors{1.1.3}	MAFB_HUMAN
+Q9Y5X4	add_hocomoco_to_existing_identical_pwm	M00371_2.00	M00371_2.00;NR2E3_HUMAN.H11MO.0.C					NR2E3	RXR-related receptors (NR2){2.1.3}	NR2E3_HUMAN
+O14867	new_tf_from_hocomoco		BACH1_HUMAN.H11MO.0.A					BACH1	Jun-related factors{1.1.1}	BACH1_HUMAN
+O15350	new_tf_from_hocomoco		P73_HUMAN.H11MO.0.A					TP73	p53-related factors{6.3.1}	P73_HUMAN
+O15516	new_tf_from_hocomoco		CLOCK_HUMAN.H11MO.0.C					CLOCK	PAS domain factors{1.2.5}	CLOCK_HUMAN
+O60264	new_tf_from_hocomoco		SMCA5_HUMAN.H11MO.0.C					SMARCA5	Myb/SANT domain factors{3.5.1}	SMCA5_HUMAN
+O75626	new_tf_from_hocomoco		PRDM1_HUMAN.H11MO.0.A					PRDM1	More than 3 adjacent zinc finger factors{2.3.3}	PRDM1_HUMAN
+O95365	new_tf_from_hocomoco		ZBT7A_HUMAN.H11MO.0.A					ZBTB7A	More than 3 adjacent zinc finger factors{2.3.3}	ZBT7A_HUMAN
+P04637	new_tf_from_hocomoco		P53_HUMAN.H11MO.0.A					TP53	p53-related factors{6.3.1}	P53_HUMAN
+P10074	new_tf_from_hocomoco		ZBT48_HUMAN.H11MO.0.C					ZBTB48	More than 3 adjacent zinc finger factors{2.3.3}	ZBT48_HUMAN
+P11161	new_tf_from_hocomoco		EGR2_HUMAN.H11MO.0.A					EGR2	Three-zinc finger Krüppel-related factors{2.3.1}	EGR2_HUMAN
+P15336	new_tf_from_hocomoco		ATF2_HUMAN.H11MO.0.B					ATF2	Jun-related factors{1.1.1}	ATF2_HUMAN
+P15923	new_tf_from_hocomoco		TFE2_HUMAN.H11MO.0.A					TCF3	E2A-related factors{1.2.1}	TFE2_HUMAN
+P21675	new_tf_from_hocomoco		TAF1_HUMAN.H11MO.0.A					TAF1	TCF-7-related factors{4.1.3}	TAF1_HUMAN
+P25490	new_tf_from_hocomoco		TYY1_HUMAN.H11MO.0.A					YY1	More than 3 adjacent zinc finger factors{2.3.3}	TYY1_HUMAN
+P28370	new_tf_from_hocomoco		SMCA1_HUMAN.H11MO.0.C					SMARCA1	Myb/SANT domain factors{3.5.1}	SMCA1_HUMAN
+P41182	new_tf_from_hocomoco		BCL6_HUMAN.H11MO.0.A					BCL6	More than 3 adjacent zinc finger factors{2.3.3}	BCL6_HUMAN
+P42226	new_tf_from_hocomoco		STAT6_HUMAN.H11MO.0.B					STAT6	STAT factors{6.2.1}	STAT6_HUMAN
+P48436	new_tf_from_hocomoco		SOX9_HUMAN.H11MO.0.B					SOX9	SOX-related factors{4.1.1}	SOX9_HUMAN
+P49711	new_tf_from_hocomoco		CTCF_HUMAN.H11MO.0.A					CTCF	More than 3 adjacent zinc finger factors{2.3.3}	CTCF_HUMAN
+P84022	new_tf_from_hocomoco		SMAD3_HUMAN.H11MO.0.B					SMAD3	SMAD factors{7.1.1}	SMAD3_HUMAN
+Q00613	new_tf_from_hocomoco		HSF1_HUMAN.H11MO.0.A					HSF1	HSF factors{3.4.1}	HSF1_HUMAN
+Q03112	new_tf_from_hocomoco		EVI1_HUMAN.H11MO.0.B					MECOM	Factors with multiple dispersed zinc fingers{2.3.4}	EVI1_HUMAN
+Q08050	new_tf_from_hocomoco		FOXM1_HUMAN.H11MO.0.A					FOXM1	Forkhead box (FOX) factors{3.3.1}	FOXM1_HUMAN
+Q13127	new_tf_from_hocomoco		REST_HUMAN.H11MO.0.A					REST	Factors with multiple dispersed zinc fingers{2.3.4}	REST_HUMAN
+Q13951	new_tf_from_hocomoco		PEBB_HUMAN.H11MO.0.C					CBFB		PEBB_HUMAN
+Q15306	new_tf_from_hocomoco		IRF4_HUMAN.H11MO.0.A					IRF4	Interferon-regulatory factors{3.5.3}	IRF4_HUMAN
+Q16520	new_tf_from_hocomoco		BATF_HUMAN.H11MO.0.A					BATF	B-ATF-related factors{1.1.4}	BATF_HUMAN
+Q8N2R0	new_tf_from_hocomoco		OSR2_HUMAN.H11MO.0.C					OSR2	More than 3 adjacent zinc finger factors{2.3.3}	OSR2_HUMAN
+Q99801	new_tf_from_hocomoco		NKX31_HUMAN.H11MO.0.C					NKX3-1	NK-related factors{3.1.2}	NKX31_HUMAN
+Q9BQA5	new_tf_from_hocomoco		HINFP_HUMAN.H11MO.0.C					HINFP	Factors with multiple dispersed zinc fingers{2.3.4}	HINFP_HUMAN
+Q9GZV8	new_tf_from_hocomoco		PRD14_HUMAN.H11MO.0.A					PRDM14	More than 3 adjacent zinc finger factors{2.3.3}	PRD14_HUMAN
+Q9NQX0	new_tf_from_hocomoco		PRDM6_HUMAN.H11MO.0.C					PRDM6	More than 3 adjacent zinc finger factors{2.3.3}	PRDM6_HUMAN
+Q9UJU2	new_tf_from_hocomoco		LEF1_HUMAN.H11MO.0.A					LEF1	TCF-7-related factors{4.1.3}	LEF1_HUMAN
+Q9UL17	new_tf_from_hocomoco		TBX21_HUMAN.H11MO.0.A					TBX21	TBrain-related factors{6.5.2}	TBX21_HUMAN

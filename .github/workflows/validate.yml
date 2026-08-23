@@ -1,0 +1,33 @@
+name: Validate release
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Validate final release
+        run: |
+          (cd data && sha256sum -c SHA256SUMS)
+          python scripts/09_validate_release.py \
+            data/releases/TF_PWM_chart_final.tsv \
+            --structural-exclusions \
+            data/model_predictions/wrong_model_modcre.txt \
+            data/model_predictions/wrong_model_af3.txt
+      - name: Reproduce HOCOMOCO integration
+        run: |
+          python scripts/08_integrate_hocomoco.py \
+            --input data/releases/TF_PWM_chart_pre_hocomoco.tsv \
+            --hocomoco data/reference/HOCOMOCOv11_core_annotation_HUMAN_mono.tsv \
+            --output /tmp/reproduced_final.tsv \
+            --audit /tmp/reproduced_audit.tsv
+          cmp /tmp/reproduced_final.tsv data/releases/TF_PWM_chart_final.tsv
+          cmp /tmp/reproduced_audit.tsv data/audit/HOCOMOCO_integration_audit.tsv

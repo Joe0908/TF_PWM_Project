@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this TF annotation resource, please cite this repository and the underlying databases and methods."
+title: "Hierarchical human transcription-factor PWM annotation resource"
+type: dataset
+authors:
+  - family-names: Tao
+    given-names: Yuqi
+repository-code: "https://github.com/Joe0908/TF_PWM_Project"
+version: 2.0.0
+date-released: 2026-06-17
