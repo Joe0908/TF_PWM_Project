@@ -87,7 +87,10 @@ def main() -> None:
         mask = table["Best_annotation_level"].eq(column)
         expected_model.loc[mask] = table.loc[mask, column]
     actual_model = table["Best_PWM_or_model"].replace("", pd.NA)
-    if not expected_model.fillna("").equals(actual_model.fillna("")):
+    models_match = (
+        expected_model.fillna("").astype(str).eq(actual_model.fillna("").astype(str)).all()
+    )
+    if not models_match:
         errors.append("Best_PWM_or_model is inconsistent with Best_annotation_level")
 
     observed_counts = table["Best_annotation_level"].value_counts().to_dict()
