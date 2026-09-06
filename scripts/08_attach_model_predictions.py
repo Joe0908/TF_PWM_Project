@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Attach deduplicated, filtered ModCRE and AlphaFold-derived model records."""
+"""Attach filtered structural models only where sequence-based PWM evidence is absent."""
 
 from __future__ import annotations
 
@@ -9,6 +9,13 @@ from collections import defaultdict
 from pathlib import Path
 
 import pandas as pd
+
+
+SEQUENCE_COLUMNS = ["Identical_PWM", "Homologous_PWM", "Relatively_Homologous_PWM"]
+
+
+def populated(value: object) -> bool:
+    return not pd.isna(value) and str(value).strip() not in {"", "nan", "None"}
 
 
 def load_exclusions(path: Path) -> set[str]:
@@ -56,6 +63,10 @@ def main() -> None:
     args = parser.parse_args()
 
     table = pd.read_csv(args.input, sep="\t", dtype=str)
+    missing = [column for column in SEQUENCE_COLUMNS if column not in table.columns]
+    if missing:
+        raise ValueError(f"Missing sequence-evidence columns: {missing}")
+
     accessions = set(table["TF_name"].astype(str).str.strip())
     accessions_upper = {value.upper(): value for value in accessions}
 
@@ -73,13 +84,29 @@ def main() -> None:
         if accession is not None:
             append_unique(af3_map, accession, model)
 
-    table["ModCRE"] = table["TF_name"].map(lambda x: ";".join(modcre_map.get(x, [])))
-    table["AlphaFold"] = table["TF_name"].map(lambda x: ";".join(af3_map.get(x, [])))
+    def has_sequence_evidence(row: pd.Series) -> bool:
+        return any(populated(row[column]) for column in SEQUENCE_COLUMNS)
+
+    modcre_values: list[str] = []
+    af3_values: list[str] = []
+    for _, row in table.iterrows():
+        tf = row["TF_name"]
+        if has_sequence_evidence(row):
+            modcre_values.append("")
+            af3_values.append("")
+            continue
+        modcre = ";".join(modcre_map.get(tf, []))
+        modcre_values.append(modcre)
+        af3_values.append("" if modcre else ";".join(af3_map.get(tf, [])))
+
+    table["ModCRE"] = modcre_values
+    table["AlphaFold"] = af3_values
     table.to_csv(args.output, sep="\t", index=False)
-    print(f"ModCRE-linked TFs: {sum(bool(values) for values in modcre_map.values())}")
-    print(f"AlphaFold-linked TFs: {sum(bool(values) for values in af3_map.values())}")
+    print(f"Retained ModCRE models for {sum(bool(value) for value in modcre_values)} TFs")
+    print(f"Retained AlphaFold-derived models for {sum(bool(value) for value in af3_values)} TFs")
     print(f"Wrote {args.output}")
 
 
 if __name__ == "__main__":
     main()
+

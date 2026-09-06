@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract sequence–motif records from Cis-BP 2.00 SQL exports."""
+"""Convert Cis-BP 2.00 SQL exports to standard sequence–PWM FASTA."""
 
 from __future__ import annotations
 
@@ -24,13 +24,11 @@ def main() -> None:
     parser.add_argument("--output", required=True, type=Path, help="Output FASTA")
     args = parser.parse_args()
 
-    motif_map: dict[str, list[tuple[str, str]]] = defaultdict(list)
+    motif_map: dict[str, list[str]] = defaultdict(list)
     motif_text = args.motifs.read_text(encoding="utf-8", errors="replace")
     for motif_id, tf_id, iupac in MOTIF_PATTERN.findall(motif_text):
-        if iupac.upper() != "NULL":
-            record = (motif_id.strip(), iupac.strip())
-            if record not in motif_map[tf_id]:
-                motif_map[tf_id].append(record)
+        if iupac.upper() != "NULL" and motif_id not in motif_map[tf_id]:
+            motif_map[tf_id].append(motif_id.strip())
 
     protein_map: dict[str, str] = {}
     protein_text = args.proteins.read_text(encoding="utf-8", errors="replace")
@@ -42,12 +40,13 @@ def main() -> None:
     written = 0
     with args.output.open("w", encoding="utf-8") as out:
         for tf_id, sequence in protein_map.items():
-            for motif_id, iupac in motif_map.get(tf_id, []):
-                out.write(f">{tf_id}|{motif_id} IUPAC={iupac}\n{sequence}\n")
+            for motif_id in motif_map.get(tf_id, []):
+                out.write(f">CISBP|{tf_id}|{motif_id}\n{sequence}\n")
                 written += 1
 
-    print(f"Wrote {written} Cis-BP sequence–motif records to {args.output}")
+    print(f"Wrote {written} Cis-BP sequence–PWM records to {args.output}")
 
 
 if __name__ == "__main__":
     main()
+

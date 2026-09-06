@@ -1,0 +1,5 @@
+source	version	scope	expected_input	url
+JASPAR	2024	human TF sequence-linked PWM records	UniProt-keyed JSON export	https://jaspar.elixir.no/
+Cis-BP	2.00	sequence-linked TF motifs	CisBP_2.00.all.motifs.sql;CisBP_2.00.all.proteins.sql	http://cisbp.ccbr.utoronto.ca/
+HOCOMOCO	11	human CORE mononucleotide models	HOCOMOCOv11_core_annotation_HUMAN_mono.tsv;human TF FASTA	https://hocomoco11.autosome.org/
+

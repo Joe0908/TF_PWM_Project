@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Convert a JASPAR UniProt JSON export to a sequence–PWM FASTA file."""
+"""Convert a JASPAR UniProt JSON export to standard sequence–PWM FASTA."""
 
 from __future__ import annotations
 
@@ -34,11 +34,12 @@ def main() -> None:
         for accession, info in data.items():
             if not isinstance(info, (list, tuple)) or len(info) < 2:
                 continue
+            accession = str(accession).strip()
             sequence = "".join(str(info[1]).split()).upper()
-            if not sequence:
+            if not accession or not sequence:
                 continue
             for motif in dict.fromkeys(motif_ids(info[0])):
-                out.write(f">{str(accession).strip()}|{motif}\n{sequence}\n")
+                out.write(f">JASPAR|{accession}|{motif}\n{sequence}\n")
                 written += 1
 
     print(f"Wrote {written} JASPAR sequence–PWM records to {args.output}")
@@ -46,3 +47,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

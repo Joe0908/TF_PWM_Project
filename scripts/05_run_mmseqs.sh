@@ -2,7 +2,7 @@
 set -euo pipefail
 
 if [[ $# -lt 2 || $# -gt 4 ]]; then
-  echo "Usage: $0 QUERY_FASTA REFERENCE_FASTA [OUTPUT_PREFIX] [THREADS]" >&2
+  echo "Usage: $0 QUERY_FASTA COMBINED_PWM_REFERENCE_FASTA [OUTPUT_PREFIX] [THREADS]" >&2
   exit 2
 fi
 
@@ -30,3 +30,4 @@ mmseqs convertalis "${output_prefix}.db" "${target_prefix}.db" "${output_prefix}
   --format-output "query,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits"
 
 echo "MMseqs2 alignment complete: ${output_prefix}.comparison"
+

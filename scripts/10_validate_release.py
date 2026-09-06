@@ -17,12 +17,8 @@ EVIDENCE_COLUMNS = [
     "AlphaFold",
 ]
 REQUIRED_COLUMNS = [
-    "TF_name",
-    "TF_family",
-    *EVIDENCE_COLUMNS,
-    "Best_annotation_level",
-    "Best_PWM_or_model",
-    "N_nonempty_annotation_columns",
+    "TF_name", "TF_family", *EVIDENCE_COLUMNS,
+    "Best_annotation_level", "Best_PWM_or_model", "N_nonempty_annotation_columns",
 ]
 EXPECTED_COUNTS = {
     "Identical_PWM": 2160,
@@ -87,10 +83,7 @@ def main() -> None:
         mask = table["Best_annotation_level"].eq(column)
         expected_model.loc[mask] = table.loc[mask, column]
     actual_model = table["Best_PWM_or_model"].replace("", pd.NA)
-    models_match = (
-        expected_model.fillna("").astype(str).eq(actual_model.fillna("").astype(str)).all()
-    )
-    if not models_match:
+    if not expected_model.fillna("").astype(str).eq(actual_model.fillna("").astype(str)).all():
         errors.append("Best_PWM_or_model is inconsistent with Best_annotation_level")
 
     observed_counts = table["Best_annotation_level"].value_counts().to_dict()
@@ -123,3 +116,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
