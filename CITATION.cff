@@ -8,3 +8,13 @@ authors:
 repository-code: "https://github.com/Joe0908/TF_PWM_Project"
 version: 2.0.0
 date-released: 2026-06-17
+references:
+  - type: article
+    title: "An expanded codebook of human transcription factor DNA-binding specificity"
+    authors:
+      - family-names: Jolma
+        given-names: Arttu
+    journal: Nature
+    year: 2026
+    doi: "10.1038/s41586-026-10798-9"
+    url: "https://www.nature.com/articles/s41586-026-10798-9"

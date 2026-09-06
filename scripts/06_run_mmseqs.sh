@@ -27,7 +27,6 @@ mmseqs search "${output_prefix}.db" "${target_prefix}.db" "${output_prefix}.ali"
   --threads "$threads" -s 7.5 --max-seq-id 1.0 --num-iterations 4 --alignment-mode 3
 mmseqs convertalis "${output_prefix}.db" "${target_prefix}.db" "${output_prefix}.ali" \
   "${output_prefix}.comparison" \
-  --format-output "query,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits"
+  --format-output "query,target,pident,alnlen,mismatch,gapopen,qstart,qend,tstart,tend,evalue,bits,qcov,tcov,qlen,tlen"
 
 echo "MMseqs2 alignment complete: ${output_prefix}.comparison"
-

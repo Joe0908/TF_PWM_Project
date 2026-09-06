@@ -11,7 +11,7 @@ from pathlib import Path
 import pandas as pd
 
 
-SEQUENCE_COLUMNS = ["Identical_PWM", "Homologous_PWM", "Relatively_Homologous_PWM"]
+SEQUENCE_COLUMNS = ["Direct_PWM", "Homologous_PWM", "Relatively_Homologous_PWM"]
 
 
 def populated(value: object) -> bool:
@@ -109,4 +109,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

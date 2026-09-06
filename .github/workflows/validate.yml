@@ -17,13 +17,17 @@ jobs:
       - name: Check workflow syntax
         run: |
           python -m py_compile scripts/*.py
-          bash -n scripts/05_run_mmseqs.sh
+          bash -n scripts/06_run_mmseqs.sh
+          python -m unittest discover -s tests -v
       - name: Validate final release
         run: |
           (cd data && sha256sum -c SHA256SUMS)
-          python scripts/10_validate_release.py \
+          python scripts/11_validate_release.py \
             data/releases/TF_PWM_chart_final.tsv \
             --structural-exclusions \
             data/model_predictions/wrong_model_modcre.txt \
-            data/model_predictions/wrong_model_af3.txt
-
+            data/model_predictions/wrong_model_af3.txt \
+            --codebook-reference \
+            data/reference/CODEBOOK_2026_motifs.tsv \
+            data/reference/CODEBOOK_2026_accession_map.tsv \
+            data/reference/CODEBOOK_2026_tf_census.tsv

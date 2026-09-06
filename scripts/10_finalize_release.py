@@ -10,7 +10,7 @@ import pandas as pd
 
 
 EVIDENCE_COLUMNS = [
-    "Identical_PWM",
+    "Direct_PWM",
     "Homologous_PWM",
     "Relatively_Homologous_PWM",
     "ModCRE",
@@ -66,4 +66,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

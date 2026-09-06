@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Iterator
 
 
-VALID_SOURCES = {"JASPAR", "CISBP", "HOCOMOCO"}
+VALID_SOURCES = {"JASPAR", "CISBP", "HOCOMOCO", "CODEBOOK"}
 
 
 def read_fasta(path: Path) -> Iterator[tuple[str, str]]:
@@ -63,4 +63,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
